@@ -1,25 +1,21 @@
-import Feature from "../components/Feature";
-import Pricing from "../components/Pricing";
-import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
-
-/*
-#ffb629 yellow
-#75c9e3 sky blue
-#a5c5c2 clear teal
-#288990 teal
-#45769e blue jean
-*/
+import Start from "../components/Start";
+import Courses from "../components/Courses";
+import AboutMe from "../components/AboutMe";
+import Podcast from "../components/Podcast";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
     <>
-      <SeoHead title='LaslesVPN Landing Page' />
+      <SeoHead title="Make Change Happen" />
       <Layout>
-        <Hero />
-        <Feature />
-        <Pricing />
+        <Start />
+        <Courses />
+        <AboutMe />
+        <Podcast />
+        <Contact />
       </Layout>
     </>
   );

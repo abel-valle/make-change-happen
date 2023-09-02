@@ -3,7 +3,7 @@ import Link from "next/link";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
-import LogoVPN from "../../public/assets/Logo.svg";
+import LogoVPN from "../../public/assets/logo.svg";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
@@ -23,94 +23,116 @@ const Header = () => {
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            {/* <LogoVPN className="h-8 w-auto" /> */}
-            <h1>Making Change Happen</h1>
+            <LogoVPN className="h-10 w-auto" />
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
             <LinkScroll
               activeClass="active"
-              to="about"
+              to="start"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("about");
+                setActiveLink("start");
               }}
               className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "about"
+                "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
+                (activeLink === "start"
                   ? " text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 a")
               }
             >
-              Cursos
+              Inicio
             </LinkScroll>
+
             <LinkScroll
               activeClass="active"
-              to="feature"
+              to="courses"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("feature");
+                setActiveLink("courses");
               }}
               className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "feature"
+                "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
+                (activeLink === "courses"
                   ? " text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 ")
               }
             >
-              Sobre mí
+              Cursos
             </LinkScroll>
+
             <LinkScroll
               activeClass="active"
-              to="pricing"
+              to="aboutme"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("pricing");
+                setActiveLink("aboutme");
               }}
               className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "pricing"
+                "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
+                (activeLink === "aboutme"
+                  ? " text-teal-500 animation-active "
+                  : " text-black-500 hover:text-teal-500 ")
+              }
+            >
+              Sobre Mí
+            </LinkScroll>
+
+            <LinkScroll
+              activeClass="active"
+              to="podcast"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              onSetActive={() => {
+                setActiveLink("podcast");
+              }}
+              className={
+                "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
+                (activeLink === "podcast"
                   ? " text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 ")
               }
             >
               Podcast
             </LinkScroll>
+
             <LinkScroll
               activeClass="active"
-              to="testimoni"
+              to="notexists"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("testimoni");
+                setActiveLink("notexists");
               }}
               className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "testimoni"
+                "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
+                (activeLink === "notexists"
                   ? " text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 ")
               }
             >
               Blog
             </LinkScroll>
+
             <LinkScroll
               activeClass="active"
-              to="testimoni"
+              to="contact"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("testimoni");
+                setActiveLink("contact");
               }}
               className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "testimoni"
+                "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
+                (activeLink === "contact"
                   ? " text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 ")
               }
