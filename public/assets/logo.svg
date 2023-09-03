@@ -25,7 +25,7 @@
      inkscape:deskcolor="#d1d1d1"
      showguides="true"
      inkscape:zoom="5.6568543"
-     inkscape:cx="10.69499"
+     inkscape:cx="10.783378"
      inkscape:cy="-6.1871843"
      inkscape:window-width="1920"
      inkscape:window-height="1022"
@@ -40,48 +40,24 @@
      height="36"
      x="0"
      y="0" />
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:8px;font-family:'Source Han Sans JP';-inkscape-font-specification:'Source Han Sans JP Semi-Bold';fill:#f9f9f9"
-     x="34.505749"
-     y="13.123544"
-     id="text2"><tspan
-       sodipodi:role="line"
-       x="34.505749"
-       y="13.123544"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:8px;font-family:'Source Han Sans JP';-inkscape-font-specification:'Source Han Sans JP Semi-Bold';fill:#000000"
-       id="tspan3">MAKE</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-weight:bold;font-size:12px;font-family:'Source Han Sans JP';-inkscape-font-specification:'Source Han Sans JP Bold';fill:#f9f9f9"
-     x="1.4025104"
-     y="30.206291"
-     id="text2-35"><tspan
-       sodipodi:role="line"
-       x="1.4025104"
-       y="30.206291"
-       style="font-size:12px;fill:#ffffff"
-       id="tspan3-62">MCH</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:8px;font-family:'Source Han Sans JP';-inkscape-font-specification:'Source Han Sans JP Semi-Bold';fill:#f9f9f9"
-     x="34.534267"
-     y="21.512178"
-     id="text2-3"><tspan
-       sodipodi:role="line"
-       x="34.534267"
-       y="21.512178"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:8px;font-family:'Source Han Sans JP';-inkscape-font-specification:'Source Han Sans JP Semi-Bold';fill:#000000"
-       id="tspan3-6">CHANGE</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:8px;font-family:'Source Han Sans JP';-inkscape-font-specification:'Source Han Sans JP Semi-Bold';fill:#f9f9f9"
-     x="34.426994"
-     y="30.031525"
-     id="text2-7"><tspan
-       sodipodi:role="line"
-       x="34.426994"
-       y="30.031525"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:8px;font-family:'Source Han Sans JP';-inkscape-font-specification:'Source Han Sans JP Semi-Bold';fill:#000000"
-       id="tspan3-5">HAPPEN</tspan></text>
+  <path
+     d="m 35.281749,13.123544 h 0.84 v -2.912 c 0,-0.5280003 -0.072,-1.2880003 -0.128,-1.8240003 h 0.032 l 0.472,1.36 1.032,2.8080003 h 0.576 l 1.024,-2.8080003 0.472,-1.36 h 0.04 c -0.056,0.536 -0.128,1.296 -0.128,1.8240003 v 2.912 h 0.864 V 7.2275437 h -1.08 l -1.056,2.9840003 c -0.128,0.384 -0.248,0.792 -0.384,1.184 h -0.04 c -0.128,-0.392 -0.256,-0.8 -0.392,-1.184 l -1.072,-2.9840003 h -1.072 z m 5.863999,0 h 0.952 l 0.496,-1.672 h 2.048 l 0.496,1.672 h 0.984 l -1.952,-5.8960003 h -1.072 z m 1.672,-2.408 0.232,-0.7920003 c 0.192,-0.64 0.376,-1.288 0.552,-1.96 h 0.032 c 0.184,0.664 0.36,1.32 0.552,1.96 l 0.232,0.7920003 z m 4.079998,2.408 h 0.928 v -1.776 l 0.912,-1.104 1.656,2.88 h 1.032 l -2.128,-3.6160003 1.832,-2.28 h -1.048 l -2.232,2.7920003 h -0.024 V 7.2275437 h -0.928 z m 5.311997,0 h 3.568 v -0.792 h -2.64 v -1.896 h 2.16 V 9.6515437 h -2.16 v -1.64 h 2.552 v -0.784 h -3.48 z"
+     id="text2"
+     style="font-weight:600;font-size:8px;font-family:'Source Han Sans JP';-inkscape-font-specification:'Source Han Sans JP Semi-Bold';fill:#606060"
+     aria-label="MAKE" />
+  <path
+     style="font-weight:bold;font-size:12px;font-family:'Source Han Sans JP';-inkscape-font-specification:'Source Han Sans JP Bold';fill:#ffffff"
+     d="m 2.4945104,30.206291 h 1.596 v -3.708 c 0,-0.852 -0.144,-2.076 -0.228,-2.916 h 0.048 l 0.708,2.088 1.38,3.732 h 1.02 l 1.368,-3.732 0.72,-2.088 h 0.06 c -0.096,0.84 -0.228,2.064 -0.228,2.916 v 3.708 H 10.55851 v -8.892 H 8.5905104 l -1.488,4.176 c -0.18,0.54 -0.336,1.128 -0.528,1.692 h -0.06 c -0.18,-0.564 -0.348,-1.152 -0.54,-1.692 l -1.512,-4.176 h -1.968 z m 13.8480076,0.168 c 1.164,0 2.112,-0.456 2.844,-1.308 l -0.948,-1.104 c -0.468,0.516 -1.056,0.876 -1.824,0.876 -1.404,0 -2.304,-1.164 -2.304,-3.096 0,-1.908 0.996,-3.06 2.34,-3.06 0.672,0 1.188,0.312 1.644,0.744 l 0.924,-1.128 c -0.576,-0.6 -1.464,-1.14 -2.604,-1.14 -2.244,0 -4.128,1.716 -4.128,4.644 0,2.964 1.824,4.572 4.056,4.572 z m 4.260002,-0.168 h 1.776 v -3.84 h 3.36 v 3.84 h 1.764 v -8.892 h -1.764 v 3.516 h -3.36 v -3.516 h -1.776 z"
+     id="text2-35"
+     aria-label="MCH" />
+  <path
+     d="m 37.606267,21.624178 c 0.768,0 1.36,-0.304 1.84,-0.856 l -0.504,-0.592 c -0.352,0.384 -0.76,0.632 -1.296,0.632 -1.04,0 -1.704,-0.864 -1.704,-2.256 0,-1.384 0.712,-2.232 1.728,-2.232 0.472,0 0.84,0.224 1.152,0.528 l 0.496,-0.592 c -0.36,-0.392 -0.936,-0.744 -1.664,-0.744 -1.496,0 -2.672,1.152 -2.672,3.064 0,1.936 1.144,3.048 2.624,3.048 z m 2.872,-0.112 h 0.928 v -2.68 h 2.52 v 2.68 h 0.928 v -5.896 h -0.928 v 2.408 h -2.52 v -2.408 h -0.928 z m 5.151993,0 h 0.952 l 0.496,-1.672 h 2.048 l 0.496,1.672 h 0.984 l -1.952,-5.896 h -1.072 z m 1.672,-2.408 0.232,-0.792 c 0.192,-0.64 0.376,-1.288 0.552,-1.96 h 0.032 c 0.184,0.664 0.36,1.32 0.552,1.96 l 0.232,0.792 z m 4.079998,2.408 h 0.88 v -2.768 c 0,-0.648 -0.072,-1.328 -0.112,-1.936 h 0.032 l 0.616,1.232 1.952,3.472 h 0.952 v -5.896 h -0.888 v 2.752 c 0,0.64 0.08,1.352 0.128,1.952 h -0.04 l -0.616,-1.24 -1.952,-3.464 h -0.952 z m 8.279994,0.112 c 0.8,0 1.464,-0.304 1.856,-0.696 v -2.552 h -2.008 v 0.768 h 1.16 v 1.376 c -0.2,0.176 -0.552,0.288 -0.912,0.288 -1.224,0 -1.872,-0.864 -1.872,-2.256 0,-1.384 0.728,-2.232 1.824,-2.232 0.568,0 0.928,0.24 1.224,0.528 l 0.496,-0.592 c -0.352,-0.376 -0.912,-0.744 -1.744,-0.744 -1.568,0 -2.76,1.152 -2.76,3.064 0,1.936 1.16,3.048 2.736,3.048 z m 3.200002,-0.112 h 3.568 v -0.792 h -2.64 v -1.896 h 2.16 v -0.784 h -2.16 v -1.64 h 2.552 v -0.784 h -3.48 z"
+     id="text2-3"
+     style="font-weight:600;font-size:8px;font-family:'Source Han Sans JP';-inkscape-font-specification:'Source Han Sans JP Semi-Bold';fill:#606060"
+     aria-label="CHANGE" />
+  <path
+     d="m 35.202994,30.031525 h 0.928 v -2.68 h 2.52 v 2.68 h 0.928 v -5.896 h -0.928 v 2.408 h -2.52 v -2.408 h -0.928 z m 5.151994,0 h 0.952 l 0.496,-1.672 h 2.048 l 0.496,1.672 h 0.984 l -1.952,-5.896 h -1.072 z m 1.672,-2.408 0.232,-0.792 c 0.192,-0.64 0.376,-1.288 0.552,-1.96 h 0.032 c 0.184,0.664 0.36,1.32 0.552,1.96 l 0.232,0.792 z m 4.079998,2.408 h 0.928 v -2.232 h 0.888 c 1.28,0 2.224,-0.592 2.224,-1.872 0,-1.336 -0.944,-1.792 -2.256,-1.792 h -1.784 z m 0.928,-2.984 v -2.16 h 0.768 c 0.936,0 1.424,0.256 1.424,1.04 0,0.76 -0.456,1.12 -1.384,1.12 z m 4.256006,2.984 h 0.928 v -2.232 h 0.888 c 1.28,0 2.224,-0.592 2.224,-1.872 0,-1.336 -0.944,-1.792 -2.256,-1.792 h -1.784 z m 0.928,-2.984 v -2.16 h 0.768 c 0.936,0 1.424,0.256 1.424,1.04 0,0.76 -0.456,1.12 -1.384,1.12 z m 4.256005,2.984 h 3.568 v -0.792 h -2.64 v -1.896 h 2.16 v -0.784 h -2.16 v -1.64 h 2.552 v -0.784 h -3.48 z m 4.800004,0 h 0.88 v -2.768 c 0,-0.648 -0.072,-1.328 -0.112,-1.936 h 0.032 l 0.616,1.232 1.952,3.472 h 0.952 v -5.896 h -0.888 v 2.752 c 0,0.64 0.08,1.352 0.128,1.952 h -0.04 l -0.616,-1.24 -1.952,-3.464 h -0.952 z"
+     id="text2-7"
+     style="font-weight:600;font-size:8px;font-family:'Source Han Sans JP';-inkscape-font-specification:'Source Han Sans JP Semi-Bold';fill:#606060"
+     aria-label="HAPPEN" />
 </svg>
