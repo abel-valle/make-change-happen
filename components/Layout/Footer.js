@@ -17,13 +17,13 @@ const Footer = () => {
             accusantium.
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
-            <div className="mx-2 fg-teal-500 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Facebook className="h-6 w-6" />
+            <div className="mx-2 fill-white-500 bg-teal-500 rounded-full items-center justify-center flex p-2 shadow-md">
+              <Facebook className="text-teal-500 h-6 w-6" />
             </div>
-            <div className="mx-2 text-teal-500 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+            <div className="mx-2 fill-white-500 bg-teal-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Twitter className="h-6 w-6" />
             </div>
-            <div className="mx-2 text-teal-500 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+            <div className="mx-2 fill-white-500 bg-teal-500 rounded-full items-center justify-center flex p-2 shadow-md">
               <Instagram className="h-6 w-6" />
             </div>
           </div>
