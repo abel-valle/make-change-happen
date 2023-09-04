@@ -6,7 +6,7 @@ const defaultMeta = {
   title: "Make Change Happen",
   siteName: "Make Change Happen",
   description:
-    "Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest",
+    "Landing page of MCH Make Change Happen",
   // change base url of your web (without '/' at the end)
   url: "https://make-change-happen.vercel.app/",
   type: "website",
