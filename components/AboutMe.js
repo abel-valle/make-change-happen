@@ -4,67 +4,117 @@ import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
-const features = [
-  "Et harum quidem rerum facilis",
-  "At vero eos et accusamus et iusto",
-  "Ut enim ad minima veniam",
-  "Temporibus autem quibusdam",
-];
-
 const AboutMe = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <div
-      className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
-      id="aboutme"
-    >
-      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 p  y-8 my-12">
-        <ScrollAnimationWrapper className="flex w-full justify-end">
-          <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
-            <Image
-              src="/assets/Illustration2.png"
-              alt="VPN Illustrasi"
-              layout="responsive"
-              quality={100}
-              height={414}
-              width={508}
-            />
-          </motion.div>
-        </ScrollAnimationWrapper>
-        <ScrollAnimationWrapper>
-          <motion.div
-            className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12"
-            variants={scrollAnimation}
-          >
-            <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-              Sobre Mí
-            </h3>
-            <p className="my-2 text-black-500">
-              Ut enim ad minima veniam, quis nostrum exercitationem ullam
-              corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-              consequatur.
-            </p>
-            <ul className="text-black-500 self-start list-inside ml-8">
-              {features.map((feature, index) => (
-                <motion.li
-                  className="relative circle-check custom-list"
-                  custom={{ duration: 2 + index }}
+    <div>
+      <div
+        className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+        id="aboutme"
+      >
+        <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto">
+          <ScrollAnimationWrapper>
+            <motion.div
+              className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
+              variants={scrollAnimation}
+            >
+              <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
+                <h2>¡Hola!</h2>
+                <h1 className="text-teal-500">Mi nombre es Roxana Serrato</h1>
+                <p className="text-justify text-black-500 mt-4 mb-6">
+                  Cuento con más de 14 años de experiencia diseñando e
+                  implementando estrategias en Desarrollo Organizacional y
+                  Gestión del Cambio, dirigidas para diversos sectores como son:
+                  Organizaciones Civiles, Consultoría en RRHH, Servicios de
+                  Resguardo de Información, Desarrollo de Software, Aseguradoras
+                  y Retail. Actualmente soy Emprendedora Digital, Speaker y
+                  Consultor en Gestión del Cambio y creadora del framework de
+                  autoconocimiento Make Change Happen, que tiene por misión
+                  ayudar y acompañar a las personas en la evolución de un
+                  mindset a través de sesiones individuales, cursos online y
+                  workshops para equipos de trabajo y empresas.
+                </p>
+              </div>
+              <div className="flex w-full">
+                <motion.div
+                  className="h-full w-full"
                   variants={scrollAnimation}
-                  key={feature}
-                  whileHover={{
-                    scale: 1.1,
-                    transition: {
-                      duration: 0.2,
-                    },
-                  }}
                 >
-                  {feature}
-                </motion.li>
-              ))}
-            </ul>
-          </motion.div>
-        </ScrollAnimationWrapper>
+                  <Image
+                    src="/assets/img-7093-1024x683.jpg"
+                    alt="Make Change Happen"
+                    quality={100}
+                    width={600}
+                    height={400}
+                    layout="responsive"
+                  />
+                </motion.div>
+              </div>
+            </motion.div>
+          </ScrollAnimationWrapper>
+        </div>
+      </div>
+
+      <div
+        className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+        id="aboutme"
+      >
+        <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto">
+          <ScrollAnimationWrapper>
+            <motion.div
+              className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
+              variants={scrollAnimation}
+            >
+              <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
+                <h1 className="text-teal-500">Formación y Estudios</h1>
+                <p className="text-justify text-black-500 mt-4 mb-2">
+                  Licenciatura en Psicología Organizacional – UNIVERSIDAD
+                  AUTÓNOMA DE QUERÉTARO 2004 - 2008 Titulada con mención
+                  honorífica
+                </p>
+                <p className="mb-2">
+                  Diplomado en Habilidades Gerenciales – FINDES
+                </p>
+                <p className="mb-2">
+                  Diplomado en Prevención de Conductas de Riesgo– Instituto
+                  Humanista Gestalt
+                </p>
+
+
+                <h1 className="text-teal-500 mt-4">Certificaciones</h1>
+                <p className="mt-4 mb-2">
+                  2023 – Certificación Internacional en Coaching – Tec de
+                  Monterrey
+                </p>
+                <p className="mb-2">
+                  2022 - Agile Change Management Certified by Change Americas &
+                  Silicon Valley
+                </p>
+                <p className="mb-2">2021 - PROSCI Certified Change Management Practitioner</p>
+                <p className="mb-2">2019 – SCRUM MÉXICO – Lean Change Management</p>
+                <p className="mb-2">2018 - SCRUM MÉXICO & KLEE - FACILITACIÓN GRÁFICA</p>
+                <p className="mb-2">2018 - SCRUM MÉXICO - MANAGEMENT 3.0</p>
+                <p className="mb-2">2018 - DIGITAL BUSINESS - MARKETING INBOUND</p>
+              </div>
+              <div className="flex w-full">
+                <motion.div
+                  className="h-full w-full"
+                  variants={scrollAnimation}
+                >
+                  <Image
+                    src="/assets/img-7094-640x640.jpeg"
+                    alt="Make Change Happen"
+                    quality={100}
+                    width={600}
+                    height={600}
+                    layout="responsive"
+                  />
+                </motion.div>
+              </div>
+            </motion.div>
+          </ScrollAnimationWrapper>
+        </div>
       </div>
     </div>
   );
