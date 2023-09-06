@@ -17,7 +17,7 @@ const Welcome = () => {
         >
           <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
-              <strong>Bienvenido</strong>
+              Bienvenido
             </h1>
             <h2>Este es el lugar donde los cambios suceden.</h2>
             <p className="text-justify text-black-500 mt-4 mb-4">
