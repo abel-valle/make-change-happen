@@ -16,7 +16,7 @@ const Welcome = () => {
           variants={scrollAnimation}
         >
           <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
-            <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
+            <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-teal-500 leading-normal">
               Bienvenido
             </h1>
             <h2>Este es el lugar donde los cambios suceden.</h2>
