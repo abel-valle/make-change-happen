@@ -20,7 +20,7 @@ const Welcome = () => {
               <strong>Bienvenido</strong>
             </h1>
             <h2>Este es el lugar donde los cambios suceden.</h2>
-            <p className="text-justify text-black-500 mt-4 mb-6">
+            <p className="text-justify text-black-500 mt-4 mb-4">
               Si aterrizaste en mi sitio web, es porque probablemente seas un{" "}
               <span className="text-teal-500">Gamechanger</span>, en busca de
               herramientas prácticas, ágiles y útiles para hacer del{" "}
@@ -29,26 +29,24 @@ const Welcome = () => {
               tu estilo de vida y fortalezca tu Liderazgo para inspirar y guiar
               un cambio de mindset dentro de tu entorno personal y profesional.
             </p>
-            <p>
-              <i>
-                Toma una taza de café o té… ¡Comencemos juntos este Journey del
-                Cambio!
-              </i>
+
+            <p className="text-justify mb-4">
+              En este espacio encontrarás{" "}
+              <span className="text-teal-500">
+                cursos online gratuitos, sesiones individuales y herramientas
+                digitales
+              </span>{" "}
+              para tu autoconocimiento y desarrollo personal.
             </p>
-            <p>
+
+            <p className="text-justify mb-12">
               <i>
-                <br></br>
-                En este espacio encontrarás{" "}
+                Toma una taza de café o té…{" "}
                 <span className="text-teal-500">
-                  cursos online gratuitos, sesiones individuales y herramientas
-                  digitales
-                </span>{" "}
-                para tu autoconocimiento y desarrollo personal.
+                  ¡Comencemos juntos este Journey del Cambio!
+                </span>
               </i>
             </p>
-            <div>
-              <br></br>
-            </div>
             <ButtonPrimary>Comienza ahora</ButtonPrimary>
           </div>
           <div className="flex w-full">

@@ -102,7 +102,7 @@ const Header = () => {
               Podcast
             </LinkScroll>
 
-            <LinkScroll
+{/*             <LinkScroll
               activeClass="active"
               to="notexists"
               spy={true}
@@ -119,7 +119,7 @@ const Header = () => {
               }
             >
               Blog
-            </LinkScroll>
+            </LinkScroll> */}
 
             <LinkScroll
               activeClass="active"

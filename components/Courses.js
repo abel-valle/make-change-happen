@@ -1,9 +1,6 @@
 import React, { useMemo } from "react";
 import Image from "next/image";
-// import Testimoni from "./Testimoni";
-// import ButtonPrimary from "./misc/ButtonPrimary";
 import ButtonOutline from "./misc/ButtonOutline.";
-// import Maps from "../public/assets/HugeGlobal.svg";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
@@ -59,19 +56,19 @@ const Courses = () => {
                   Curso
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                  <li className="relative check custom-list my-2">
+                  <li className="relative check custom-list my-1">
                     Una hora de contenido en una plataforma digital.
                   </li>
-                  <li className="relative check custom-list my-2">
+                  <li className="relative check custom-list my-1">
                     Un workbook digital con ejercicios prácticos.
                   </li>
-                  <li className="relative check custom-list my-2">
+                  <li className="relative check custom-list my-1">
                     Un test para identificar en qué etapa del journey del cambio
                     te encuentras ahora.
                   </li>
                 </ul>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                  <p className="text-2xl text-black-600 text-center mb-4 ">
+                  <p className="text-2xl text-black-600 text-center mb-2 ">
                     Gratis
                   </p>
                   <ButtonOutline>Seleccionar</ButtonOutline>
@@ -101,26 +98,26 @@ const Courses = () => {
                   Packs de 3 ó 6 sesiones individuales{" "}
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                  <li className="relative check custom-list my-2">
+                  <li className="relative check custom-list my-1">
                     Elige un plan de 3 ó 6 sesiones de acompañamiento
                     personalizado.
                   </li>
-                  <li className="relative check custom-list my-2">
+                  <li className="relative check custom-list my-1">
                     Workbook Digital
                   </li>
-                  <li className="relative check custom-list my-2">
+                  <li className="relative check custom-list my-1">
                     Test: Autoconocimiento, Estilo de Administración del Tiempo,
                     Estilo de Comunicación.
                   </li>
-                  <li className="relative check custom-list my-2">
+                  <li className="relative check custom-list my-1">
                     Test para medir nivel de madurez de 13 Competencias
                     Profesionales.
                   </li>
-                  <li className="relative check custom-list my-2">
+                  <li className="relative check custom-list my-1">
                     Un Journal Reflection (fisico) para registrar tus avances.{" "}
                   </li>
                 </ul>
-                <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
+                <div className="flex flex-col w-full justify-center flex-none mt-12 mb-8">
                   <ButtonOutline>Seleccionar</ButtonOutline>
                 </div>
               </motion.div>
@@ -136,7 +133,7 @@ const Courses = () => {
                   },
                 }}
               >
-                <div className="p-4 lg:p-0 mt-6 lg:mt-16">
+                <div className="p-4 lg:p-0 mt-2 lg:mt-16">
                   <Image
                     src="/assets/Premium.png"
                     width={145}
@@ -148,18 +145,18 @@ const Courses = () => {
                   Workshops para Equipos de Trabajos/Empresas{" "}
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                  <li className="relative check custom-list my-2">
+                  <li className="relative check custom-list my-1">
                     Facilitación de 4 hrs. de sesión grupal teórica y práctica
                     para idear el prototipo de un producto y/o servicio.
                   </li>
-                  <li className="relative check custom-list my-2">
+                  <li className="relative check custom-list my-1">
                     Workbook Digital con ejercicios prácticos.
                   </li>
-                  <li className="relative check custom-list my-2">
+                  <li className="relative check custom-list my-1">
                     Test para medir nivel de madurez de 13 Competencias
                     Profesionales.
                   </li>
-                  <li className="relative check custom-list my-2">
+                  <li className="relative check custom-list my-1">
                     Un Reporte con los Resultados del nivel de madurez de las
                     competencias del equipo.{" "}
                   </li>
