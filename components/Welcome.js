@@ -20,7 +20,7 @@ const Welcome = () => {
               Bienvenido
             </h1>
             <h2>Este es el lugar donde los cambios suceden.</h2>
-            <p className="text-justify text-black-500 mt-4 mb-4">
+            <p className="text-justify text-black-500 mt-6 mb-4">
               Si aterrizaste en mi sitio web, es porque probablemente seas un{" "}
               <span className="text-teal-500">Gamechanger</span>, en busca de
               herramientas prácticas, ágiles y útiles para hacer del{" "}

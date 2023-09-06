@@ -26,7 +26,7 @@ const AboutMe = () => {
                 <h1 className="text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500">
                   Mi nombre es Roxana Serrato
                 </h1>
-                <p className="text-justify text-black-500 mt-4 mb-2">
+                <p className="text-justify text-black-500 mt-6 mb-2">
                   Cuento con más de 14 años de experiencia diseñando e
                   implementando estrategias en Desarrollo Organizacional y
                   Gestión del Cambio, dirigidas para diversos sectores como son:

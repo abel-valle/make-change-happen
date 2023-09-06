@@ -39,7 +39,7 @@ const WelcomeMore = () => {
                 <h1 className="text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
                   ¿Qué es Make Change Happen?
                 </h1>
-                <p className="text-justify text-black-500 mt-4 mb-2">
+                <p className="text-justify text-black-500 mt-6 mb-2">
                   Es un{" "}
                   <span className="text-teal-500">
                     framework de autoconocimiento
@@ -75,7 +75,7 @@ const WelcomeMore = () => {
                   ¿Cómo logramos desarrollar un mindset de Game Changer?
                 </h1>
 
-                <p className="text-justify text-black-500 mt-4 mb-2">
+                <p className="text-justify text-black-500 mt-6 mb-2">
                   Un{" "}
                   <span className="text-teal-500">Mindset de Game Changer</span>
                   , está basado en el pensamiento de que cada persona es
