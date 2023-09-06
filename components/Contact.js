@@ -1,9 +1,7 @@
 import React, { useMemo } from "react";
 import { motion } from "framer-motion";
-import ButtonPrimary from "./misc/ButtonPrimary";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import GlobalMap from "../public/assets/HugeGlobal.svg";
 
 const Contact = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);

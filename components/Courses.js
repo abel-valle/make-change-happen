@@ -52,10 +52,11 @@ const Courses = () => {
                     alt="Plan Básico"
                   />
                 </div>
-                <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                  Curso
+                <p className="text-lg text-black-600 font-medium my-1 sm:my-7">
+                  Curso<br></br>
+                  <span className="text-black-500">The Journey of the Game Changer</span>
                 </p>
-                <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
+                {/* <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-1">
                     Una hora de contenido en una plataforma digital.
                   </li>
@@ -66,8 +67,8 @@ const Courses = () => {
                     Un test para identificar en qué etapa del journey del cambio
                     te encuentras ahora.
                   </li>
-                </ul>
-                <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
+                </ul> */}
+                <div className="flex flex-col w-full justify-center mb-8 flex-none mt-2">
                   <p className="text-2xl text-black-600 text-center mb-2 ">
                     Gratis
                   </p>
@@ -94,10 +95,10 @@ const Courses = () => {
                     alt="Plan Estándar"
                   />
                 </div>
-                <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                <p className="text-lg text-black-600 font-medium my-2 sm:my-7">
                   Packs de 3 ó 6 sesiones individuales{" "}
                 </p>
-                <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
+                {/* <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-1">
                     Elige un plan de 3 ó 6 sesiones de acompañamiento
                     personalizado.
@@ -116,7 +117,7 @@ const Courses = () => {
                   <li className="relative check custom-list my-1">
                     Un Journal Reflection (fisico) para registrar tus avances.{" "}
                   </li>
-                </ul>
+                </ul> */}
                 <div className="flex flex-col w-full justify-center flex-none mt-12 mb-8">
                   <ButtonOutline>Seleccionar</ButtonOutline>
                 </div>
@@ -141,10 +142,10 @@ const Courses = () => {
                     alt="Plan Premium"
                   />
                 </div>
-                <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                <p className="text-lg text-black-600 font-medium my-2 sm:my-7">
                   Workshops para Equipos de Trabajos/Empresas{" "}
                 </p>
-                <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
+                {/* <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-1">
                     Facilitación de 4 hrs. de sesión grupal teórica y práctica
                     para idear el prototipo de un producto y/o servicio.
@@ -160,7 +161,7 @@ const Courses = () => {
                     Un Reporte con los Resultados del nivel de madurez de las
                     competencias del equipo.{" "}
                   </li>
-                </ul>
+                </ul> */}
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <ButtonOutline>Seleccionar</ButtonOutline>
                 </div>

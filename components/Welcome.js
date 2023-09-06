@@ -22,21 +22,19 @@ const Welcome = () => {
             <h2>Este es el lugar donde los cambios suceden.</h2>
             <p className="text-justify text-black-500 mt-6 mb-4">
               Si aterrizaste en mi sitio web, es porque probablemente seas un{" "}
-              <span className="text-teal-500">Gamechanger</span>, en busca de
+              <span className="text-teal-500">Game Changer</span>, en busca de
               herramientas prácticas, ágiles y útiles para hacer del{" "}
               <span className="text-teal-500">AUTODESARROLLO</span> un{" "}
               <span className="text-teal-500">SUPERPODER</span> que transforme
-              tu estilo de vida y fortalezca tu Liderazgo para inspirar y guiar
-              un cambio de mindset dentro de tu entorno personal y profesional.
+              tu estilo de vida y fortalezca tu Liderazgo.
             </p>
 
             <p className="text-justify mb-4">
               En este espacio encontrarás{" "}
               <span className="text-teal-500">
-                cursos online gratuitos, sesiones individuales y herramientas
-                digitales
-              </span>{" "}
-              para tu autoconocimiento y desarrollo personal.
+                podcast, cursos online gratuitos, sesiones individuales y
+                workshops para equipos de trabajo.
+              </span>
             </p>
 
             <p className="text-justify mb-12">
