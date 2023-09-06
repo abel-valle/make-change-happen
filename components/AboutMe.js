@@ -84,7 +84,7 @@ const AboutMe = () => {
                     layout="responsive"
                   />
                   <p className="text-center mt-4">
-                    Me encanta ayudar y acompañar a las personas que toman la
+                    ¡Me encanta ayudar y acompañar a las personas que toman la
                     decisión y acción de transformar su mindset para{" "}
                     <span className="text-teal-500">RE-INVENTARSE</span>y{" "}
                     <span className="text-teal-500">RE-DISEÑAR</span> la
