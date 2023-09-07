@@ -1,9 +1,7 @@
 import React, { useMemo } from "react";
 import { motion } from "framer-motion";
-import ButtonPrimary from "./misc/ButtonPrimary";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import Testimon from "./Testimon";
 
 const Podcast = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -26,15 +24,10 @@ const Podcast = () => {
               variants={scrollAnimation}
               className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
             >
-              Algunos de los Podcast emitidos.
+              Próximamente.
             </motion.p>
           </ScrollAnimationWrapper>
 
-          <ScrollAnimationWrapper className="w-full flex flex-col py-12">
-            <motion.div variants={scrollAnimation}>
-              <Testimon />
-            </motion.div>
-          </ScrollAnimationWrapper>
         </div>
       </div>
     </div>
