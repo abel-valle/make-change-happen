@@ -50,7 +50,7 @@ const Welcome = () => {
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>
               <Image
-                src="/assets/img-20230910-1400x1400.jpeg"
+                src="/assets/img-072633-1400x1400.jpeg"
                 alt="Make Change Happen"
                 quality={100}
                 width={600}

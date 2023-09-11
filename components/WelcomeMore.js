@@ -25,11 +25,11 @@ const WelcomeMore = () => {
                   variants={scrollAnimation}
                 >
                   <Image
-                    src="/assets/img-005839-1024x680.png"
+                    src="/assets/img-082922-1400x1400.jpeg"
                     alt="Make Change Happen"
                     quality={100}
                     width={600}
-                    height={398}
+                    height={600}
                     layout="responsive"
                   />
                 </motion.div>
@@ -105,11 +105,11 @@ const WelcomeMore = () => {
                   variants={scrollAnimation}
                 >
                   <Image
-                    src="/assets/img-192423-824x652.png"
+                    src="/assets/img-080929-1400x1400.jpeg"
                     alt="Make Change Happen"
                     quality={100}
                     width={600}
-                    height={398}
+                    height={600}
                     layout="responsive"
                   />
                 </motion.div>

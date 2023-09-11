@@ -49,11 +49,11 @@ const AboutMe = () => {
                   variants={scrollAnimation}
                 >
                   <Image
-                    src="/assets/img-7093-1024x683.jpg"
+                    src="/assets/img-081914-1280x1600.jpeg"
                     alt="Make Change Happen"
                     quality={100}
-                    width={600}
-                    height={400}
+                    width={300}
+                    height={375}
                     layout="responsive"
                   />
                 </motion.div>
@@ -76,7 +76,7 @@ const AboutMe = () => {
                   variants={scrollAnimation}
                 >
                   <Image
-                    src="/assets/img-7094-640x640.jpeg"
+                    src="/assets/img-081839-1600x1600.jpeg"
                     alt="Make Change Happen"
                     quality={100}
                     width={600}
