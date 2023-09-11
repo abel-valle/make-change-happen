@@ -37,10 +37,11 @@ const AboutMe = () => {
                 <p className="text-justify text-black-500 mt-2 mb-2">
                   Actualmente soy Emprendedora Digital, Speaker y Consultor en
                   Gestión del Cambio y creadora del framework de
-                  autoconocimiento Make Change Happen, que tiene por misión
-                  ayudar y acompañar a las personas en la evolución de un
-                  mindset a través de sesiones individuales, cursos online y
-                  workshops para equipos de trabajo y empresas.
+                  autoconocimiento{" "}
+                  <span className="text-teal-500">Make Change Happen</span>, que
+                  tiene por misión ayudar y acompañar a las personas en la
+                  evolución de un mindset a través de sesiones individuales,
+                  cursos online y workshops para equipos de trabajo y empresas.
                 </p>
               </div>
               <div className="flex w-full">
