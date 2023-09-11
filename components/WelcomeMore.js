@@ -25,7 +25,7 @@ const WelcomeMore = () => {
                   variants={scrollAnimation}
                 >
                   <Image
-                    src="/assets/img-082922-1400x1400.jpeg"
+                    src="/assets/img-085131-1400x1400.jpeg"
                     alt="Make Change Happen"
                     quality={100}
                     width={600}
@@ -105,7 +105,7 @@ const WelcomeMore = () => {
                   variants={scrollAnimation}
                 >
                   <Image
-                    src="/assets/img-080929-1400x1400.jpeg"
+                    src="/assets/img-080929-1400x1400.png"
                     alt="Make Change Happen"
                     quality={100}
                     width={600}
