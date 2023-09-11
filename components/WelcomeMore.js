@@ -105,7 +105,7 @@ const WelcomeMore = () => {
                   variants={scrollAnimation}
                 >
                   <Image
-                    src="/assets/img-080929-1400x1400.png"
+                    src="/assets/img-092156-1400x1400.png"
                     alt="Make Change Happen"
                     quality={100}
                     width={600}
