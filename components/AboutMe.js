@@ -94,7 +94,7 @@ const AboutMe = () => {
                 </motion.div>
               </div>
 
-              <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
+              <div className="flex flex-col justify-center items-start row-start-2 sm:row-start-1">
                 <h1 className="text-1xl lg:text-2xl xl:text-3xl font-medium text-teal-500">
                   Formación y Estudios
                 </h1>

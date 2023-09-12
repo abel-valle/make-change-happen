@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
-import ButtonOutline from "../misc/ButtonOutline.";
+// import ButtonOutline from "../misc/ButtonOutline.";
 import LogoMCH from "../../public/assets/logo.svg";
 
 const Header = () => {
@@ -83,7 +83,7 @@ const Header = () => {
               Sobre Mí
             </LinkScroll>
 
-            <LinkScroll
+            {/*             <LinkScroll
               activeClass="active"
               to="podcast"
               spy={true}
@@ -100,9 +100,9 @@ const Header = () => {
               }
             >
               Podcast
-            </LinkScroll>
+            </LinkScroll> */}
 
-{/*             <LinkScroll
+            {/*             <LinkScroll
               activeClass="active"
               to="notexists"
               spy={true}
@@ -141,10 +141,24 @@ const Header = () => {
             </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <ButtonOutline>Registrarse</ButtonOutline>
+            <LinkScroll
+              activeClass="active"
+              to="enroll"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              onSetActive={() => {
+                setActiveLink("enroll");
+              }}
+              className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+            >
+              Registrarse
+            </LinkScroll>
           </div>
         </nav>
       </header>
+
+      {/* ------------------------------------------------------------------ */}
       {/* Mobile Navigation */}
 
       <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
@@ -162,7 +176,7 @@ const Header = () => {
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "about"
-                  ? "  border-teal-500 text-teal-500"
+                  ? " border-teal-500 text-teal-500"
                   : " border-transparent")
               }
             >
@@ -194,7 +208,7 @@ const Header = () => {
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "feature"
-                  ? "  border-teal-500 text-teal-500"
+                  ? " border-teal-500 text-teal-500"
                   : " border-transparent ")
               }
             >
@@ -226,7 +240,7 @@ const Header = () => {
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "pricing"
-                  ? "  border-teal-500 text-teal-500"
+                  ? " border-teal-500 text-teal-500"
                   : " border-transparent ")
               }
             >
@@ -258,7 +272,7 @@ const Header = () => {
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "testimoni"
-                  ? "  border-teal-500 text-teal-500"
+                  ? " border-teal-500 text-teal-500"
                   : " border-transparent ")
               }
             >
