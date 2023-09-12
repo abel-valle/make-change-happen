@@ -1,27 +1,22 @@
 import prisma from "../../../lib/prisma";
 
-// POST /api/contact/post
+// POST /api/contact
 export default async function handle(req, res) {
   const { name, email, subject, phone } = req.body;
 
-  console.log("------------------------------------------------------------");
+  /*   console.log("------------------------------------------------------------");
   console.log("name: " + name);
   console.log("email: " + email);
   console.log("subject: " + subject);
   console.log("phone: " + phone);
-  console.log("------------------------------------------------------------");
-
-  /*   name: name,
-  email: email,
-  subject: subject,
-  phone: phone, */
+  console.log("------------------------------------------------------------"); */
 
   const result = await prisma.contact.create({
     data: {
-      name: "Test Name",
-      email: "test@mail.com",
-      subject: "Subject Test",
-      phone: "55 5555-5555",
+      name: name,
+      email: email,
+      subject: subject,
+      phone: subject,
     },
   });
   res.json(result);
