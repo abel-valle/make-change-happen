@@ -40,8 +40,8 @@ const Header = () => {
               className={
                 "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "start"
-                  ? " text-teal-500 animation-active "
-                  : " text-black-500 hover:text-teal-500 a")
+                  ? "  text-teal-500 animation-active "
+                  : " text-black-500 hover:text-teal-500 ")
               }
             >
               Inicio
@@ -59,7 +59,7 @@ const Header = () => {
               className={
                 "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "courses"
-                  ? " text-teal-500 animation-active "
+                  ? "  text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 ")
               }
             >
@@ -78,7 +78,7 @@ const Header = () => {
               className={
                 "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "aboutme"
-                  ? " text-teal-500 animation-active "
+                  ? "  text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 ")
               }
             >
@@ -97,7 +97,7 @@ const Header = () => {
               className={
                 "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "contact"
-                  ? " text-teal-500 animation-active "
+                  ? "  text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 ")
               }
             >

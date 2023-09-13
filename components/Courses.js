@@ -1,15 +1,11 @@
-import React, { useMemo, useState, useEffect } from "react";
+import React, { useMemo } from "react";
 import Image from "next/image";
 import ButtonOutline from "./misc/ButtonOutline.";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import { Link as LinkScroll } from "react-scroll";
 
 const Courses = () => {
-  const [activeLink, setActiveLink] = useState(null);
-  // const [scrollActive, setScrollActive] = useState(false);
-
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
