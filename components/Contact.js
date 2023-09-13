@@ -72,7 +72,6 @@ const Contact = () => {
                     <div className="mt-8 mb-8">
                       <input
                         type="text"
-                        id="name_enroll"
                         className="peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.30rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                         placeholder="Nombre (cómo te gusta que te digan)"
                         value={nameEnroll}
@@ -83,7 +82,6 @@ const Contact = () => {
                     <div className="mt-8 mb-8">
                       <input
                         type="email"
-                        id="email_enroll"
                         className="peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.30rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                         placeholder="Correo electrónico"
                         value={emailEnroll}
@@ -131,7 +129,6 @@ const Contact = () => {
                         autoFocus
                         type="text"
                         className="peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.30rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
-                        id="exampleInput7"
                         placeholder="Nombre (cómo te gusta que te digan)"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
@@ -143,7 +140,6 @@ const Contact = () => {
                       <input
                         type="email"
                         className="peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
-                        id="exampleInput8"
                         placeholder="Correo electrónico"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
@@ -155,7 +151,6 @@ const Contact = () => {
                       <input
                         type="tel"
                         className="peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
-                        id="exampleInput9"
                         placeholder="Número de Whatsapp para contactarte"
                         value={phone}
                         onChange={(e) => setPhone(e.target.value)}
@@ -166,7 +161,6 @@ const Contact = () => {
                     <div className="relative mb-6" data-te-input-wrapper-init>
                       <textarea
                         className="peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
-                        id="exampleFormControlTextarea13"
                         rows="3"
                         placeholder="¿En qué podemos ayudarte?"
                         onChange={(e) => setSubject(e.target.value)}
