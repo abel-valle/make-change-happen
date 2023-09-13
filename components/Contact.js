@@ -1,10 +1,15 @@
 import React, { useMemo, useState } from "react";
+import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const Contact = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+
+  const { register, handleSubmit, errors, formState } = useForm();
+  const [isContactSuccess, setIsContactSuccess] = useState(false);
+  const [isEnrollSuccess, setIsEnrollSuccess] = useState(false);
 
   const [nameEnroll, setNameEnroll] = useState("");
   const [emailEnroll, setEmailEnroll] = useState("");
@@ -18,7 +23,7 @@ const Contact = () => {
     e.preventDefault();
     try {
       const body = { name, email, subject, phone };
-      await fetch("/api/contact", {
+      const result = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
@@ -27,7 +32,9 @@ const Contact = () => {
       setEmail("");
       setSubject("");
       setPhone("");
-      //await Router.push("/");
+      
+      setIsContactSuccess(true);
+
     } catch (error) {
       console.error(error);
     }
@@ -44,7 +51,9 @@ const Contact = () => {
       });
       setNameEnroll("");
       setEmailEnroll("");
-      // await Router.push("/");
+      
+      setIsEnrollSuccess(true);
+
     } catch (error) {
       console.error(error);
     }
@@ -93,7 +102,7 @@ const Contact = () => {
                       <input
                         type="submit"
                         value="¡Registrarme!"
-                        disabled={!nameEnroll || !emailEnroll}
+                        disabled={!nameEnroll || !emailEnroll || formState.isSubmitting}
                         className="text-white-500 bg-yellow-500 hover:bg-teal-500 dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]] inline-block w-full rounded bg-primary px-6 pb-2 pt-2.5 text-sm font-medium leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
                         data-te-ripple-init
                         data-te-ripple-color="light"
@@ -101,6 +110,13 @@ const Contact = () => {
                     </div>
                   </div>
                 </form>
+
+                {isEnrollSuccess && (
+                  <div className="text-teal-500">
+                    Tu registro se ha enviado.
+                  </div>
+                )}
+
               </motion.div>
             </ScrollAnimationWrapper>
           </center>
@@ -165,7 +181,13 @@ const Contact = () => {
                       <input
                         type="submit"
                         value="Click aquí para enviar tu mensaje"
-                        disabled={!name || !email || !subject || !phone}
+                        disabled={
+                          !name ||
+                          !email ||
+                          !subject ||
+                          !phone ||
+                          formState.isSubmitting
+                        }
                         className="mt-2 mb-8 text-white-500 bg-yellow-500 hover:bg-teal-500 dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]] inline-block w-full rounded bg-primary px-6 pb-2 pt-2.5 text-sm font-medium leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
                         data-te-ripple-init
                         data-te-ripple-color="light"
@@ -174,6 +196,12 @@ const Contact = () => {
                     <div></div>
                   </div>
                 </form>
+
+                {isContactSuccess && (
+                  <div className="text-teal-500">
+                    Tu mensaje ha sido enviado.
+                  </div>
+                )}
 
                 {/* <a href="" className="font-medium dark:text-teal-100 hover:underline">Ver Aviso de Privacidad</a> */}
               </motion.div>
