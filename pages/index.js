@@ -12,12 +12,12 @@ export default function Home() {
     <>
       <SeoHead title="Make Change Happen" />
       <Layout>
+        <Contact />
         <Welcome />
         <WelcomeMore />
         <Courses />
         <AboutMe />
         {/* <Podcast /> */}
-        <Contact />
       </Layout>
     </>
   );

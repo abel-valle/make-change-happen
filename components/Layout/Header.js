@@ -132,12 +132,12 @@ const Header = () => {
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
               activeClass="active"
-              to="about"
+              to="start"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("about");
+                setActiveLink("start");
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
@@ -160,7 +160,7 @@ const Header = () => {
                   d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              About
+              Inicio
             </LinkScroll>
             <LinkScroll
               activeClass="active"
