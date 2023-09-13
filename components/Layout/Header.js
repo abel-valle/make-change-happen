@@ -2,17 +2,18 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
-// import ButtonOutline from "../misc/ButtonOutline.";
 import LogoMCH from "../../public/assets/logo.svg";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
   const [scrollActive, setScrollActive] = useState(false);
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScrollActive(window.scrollY > 20);
     });
   }, []);
+
   return (
     <>
       <header
@@ -25,7 +26,7 @@ const Header = () => {
           <div className="col-start-1 col-end-2 flex items-center">
             <LogoMCH className="h-10 w-auto" />
           </div>
-          <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
+          <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500 items-center">
             <LinkScroll
               activeClass="active"
               to="start"
@@ -83,44 +84,6 @@ const Header = () => {
               Sobre Mí
             </LinkScroll>
 
-            {/*             <LinkScroll
-              activeClass="active"
-              to="podcast"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("podcast");
-              }}
-              className={
-                "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "podcast"
-                  ? " text-teal-500 animation-active "
-                  : " text-black-500 hover:text-teal-500 ")
-              }
-            >
-              Podcast
-            </LinkScroll> */}
-
-            {/*             <LinkScroll
-              activeClass="active"
-              to="notexists"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("notexists");
-              }}
-              className={
-                "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "notexists"
-                  ? " text-teal-500 animation-active "
-                  : " text-black-500 hover:text-teal-500 ")
-              }
-            >
-              Blog
-            </LinkScroll> */}
-
             <LinkScroll
               activeClass="active"
               to="contact"
@@ -140,6 +103,7 @@ const Header = () => {
               Contacto
             </LinkScroll>
           </ul>
+          
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <LinkScroll
               activeClass="active"
@@ -150,10 +114,11 @@ const Header = () => {
               onSetActive={() => {
                 setActiveLink("enroll");
               }}
-              className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-1.5 mr-2 mb-2 focus:outline-none"
+              className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium text-sm px-5 py-3.5 mr-2 mb-2 focus:outline-none"
             >
               Registrarse
             </LinkScroll>
+
           </div>
         </nav>
       </header>

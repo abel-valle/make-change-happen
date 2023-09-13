@@ -31,7 +31,7 @@ const Courses = () => {
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
             >
               <span className="text-teal-500">
-                Elige el plan que sea mejor para tí y explorar sus
+                Elige el plan que sea mejor para tí y explora sus
                 oportunidades.
               </span>
               <p>
@@ -152,7 +152,7 @@ const Courses = () => {
                     }}
                     className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
                   >
-                    Conocer más
+                    Conoce más
                   </LinkScroll>
                 </div>
               </motion.div>
@@ -208,7 +208,7 @@ const Courses = () => {
                     }}
                     className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
                   >
-                    Conocer más
+                    Conoce más
                   </LinkScroll>
                 </div>
               </motion.div>
