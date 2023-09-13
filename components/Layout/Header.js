@@ -150,7 +150,7 @@ const Header = () => {
               onSetActive={() => {
                 setActiveLink("enroll");
               }}
-              className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+              className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-1.5 mr-2 mb-2 focus:outline-none"
             >
               Registrarse
             </LinkScroll>

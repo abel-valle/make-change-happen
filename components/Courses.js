@@ -8,12 +8,7 @@ import { Link as LinkScroll } from "react-scroll";
 
 const Courses = () => {
   const [activeLink, setActiveLink] = useState(null);
-  const [scrollActive, setScrollActive] = useState(false);
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setScrollActive(window.scrollY > 20);
-    });
-  }, []);
+  // const [scrollActive, setScrollActive] = useState(false);
 
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
@@ -36,9 +31,12 @@ const Courses = () => {
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
             >
               <span className="text-teal-500">
-                Elige uno de los cursos que sean mejor para tí y explora sus
+                Elige el plan que sea mejor para tí y explorar sus
                 oportunidades.
               </span>
+              <p>
+                En este espacio encontrarás cursos online, packs de sesiones individuales y workshops.
+              </p>
             </motion.p>
           </ScrollAnimationWrapper>
           <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">

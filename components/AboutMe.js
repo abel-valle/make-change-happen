@@ -87,7 +87,7 @@ const AboutMe = () => {
                   <p className="text-center mt-4">
                     ¡Me encanta ayudar y acompañar a las personas que toman la
                     decisión y acción de transformar su mindset para{" "}
-                    <span className="text-teal-500">RE-INVENTARSE</span>y{" "}
+                    <span className="text-teal-500">RE-INVENTARSE</span> y{" "}
                     <span className="text-teal-500">RE-DISEÑAR</span> la
                     trayectoria de su vida personal y profesional!
                   </p>
@@ -115,7 +115,7 @@ const AboutMe = () => {
                   Certificaciones
                 </h1>
                 <p className="mt-4 mb-2">
-                  2023 – Certificación Internacional en Coaching – Tec de
+                  2023 – Certificación Internacional en Coaching Ejecutivo – Tecnológico de
                   Monterrey
                 </p>
                 <p className="mb-2">
