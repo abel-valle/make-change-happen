@@ -105,7 +105,8 @@ const Header = () => {
           </ul>
           
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <LinkScroll
+            <ButtonOutline>Registrarse</ButtonOutline>
+            {/* <LinkScroll
               activeClass="active"
               to="enroll"
               spy={true}
@@ -117,8 +118,7 @@ const Header = () => {
               className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium text-sm px-5 py-3.5 mr-2 mb-2 focus:outline-none"
             >
               Registrarse
-            </LinkScroll>
-
+            </LinkScroll> */}
           </div>
         </nav>
       </header>

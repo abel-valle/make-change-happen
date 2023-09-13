@@ -81,8 +81,8 @@ const Courses = () => {
                   <p className="text-2xl text-black-600 text-center mb-2 ">
                     Gratis
                   </p>
-                  {/* <ButtonOutline>Seleccionar</ButtonOutline> */}
-                  <LinkScroll
+                  <ButtonOutline>Seleccionar</ButtonOutline>
+                  {/* <LinkScroll
                     activeClass="active"
                     to="courses"
                     spy={true}
@@ -94,7 +94,7 @@ const Courses = () => {
                     className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
                   >
                     Seleccionar
-                  </LinkScroll>
+                  </LinkScroll> */}
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -141,7 +141,8 @@ const Courses = () => {
                   </li>
                 </ul> */}
                 <div className="flex flex-col w-full justify-center flex-none mt-12 mb-8">
-                  <LinkScroll
+                  <ButtonOutline>Seleccionar</ButtonOutline>
+                  {/* <LinkScroll
                     activeClass="active"
                     to="courses"
                     spy={true}
@@ -153,7 +154,7 @@ const Courses = () => {
                     className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
                   >
                     Conoce más
-                  </LinkScroll>
+                  </LinkScroll> */}
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -197,7 +198,8 @@ const Courses = () => {
                   </li>
                 </ul> */}
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                  <LinkScroll
+                  <ButtonOutline>Seleccionar</ButtonOutline>
+                  {/* <LinkScroll
                     activeClass="active"
                     to="contact"
                     spy={true}
@@ -209,7 +211,7 @@ const Courses = () => {
                     className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
                   >
                     Conoce más
-                  </LinkScroll>
+                  </LinkScroll> */}
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
