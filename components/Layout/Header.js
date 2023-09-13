@@ -106,8 +106,8 @@ const Header = () => {
           </ul>
           
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            <ButtonOutline>Registrarse</ButtonOutline>
-            {/* <LinkScroll
+            {/* <ButtonOutline>Registrarse</ButtonOutline> */}
+            <LinkScroll
               activeClass="active"
               to="enroll"
               spy={true}
@@ -116,10 +116,10 @@ const Header = () => {
               onSetActive={() => {
                 setActiveLink("enroll");
               }}
-              className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium text-sm px-5 py-3.5 mr-2 mb-2 focus:outline-none"
+              className="font-medium tracking-wide py-2 px-5 sm:px-8 border border-teal-500 text-teal-500 bg-white-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-teal-500 hover:text-white-500 transition-all hover:shadow-teal"
             >
               Registrarse
-            </LinkScroll> */}
+            </LinkScroll>
           </div>
         </nav>
       </header>
