@@ -11,7 +11,7 @@ const WelcomeMore = () => {
     <div>
       <div
         className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
-        id="moreabout"
+        id="whatis"
       >
         <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
           <ScrollAnimationWrapper>
@@ -63,7 +63,7 @@ const WelcomeMore = () => {
         </div>
       </div>
 
-      <div className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14">
+      <div className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14" id="journey">
         <div className="max-w-screen-xl mt-4 px-8 xl:px-16 mx-auto">
           <ScrollAnimationWrapper>
             <motion.div
