@@ -27,9 +27,12 @@ const Courses = () => {
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
             >
               <span className="text-teal-500">
-                Elige uno de los cursos que sean mejor para tí y explora sus
+                Elige el plan que sea mejor para tí y explora sus
                 oportunidades.
               </span>
+              <p>
+                En este espacio encontrarás cursos online, packs de sesiones individuales y workshops.
+              </p>
             </motion.p>
           </ScrollAnimationWrapper>
           <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
@@ -54,7 +57,9 @@ const Courses = () => {
                 </div>
                 <p className="text-lg text-black-600 font-medium my-1 sm:my-7">
                   Curso<br></br>
-                  <span className="text-black-500">The Journey of the Game Changer</span>
+                  <span className="text-black-500">
+                    The Journey of the Game Changer
+                  </span>
                 </p>
                 {/* <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                   <li className="relative check custom-list my-1">
@@ -73,6 +78,19 @@ const Courses = () => {
                     Gratis
                   </p>
                   <ButtonOutline>Seleccionar</ButtonOutline>
+                  {/* <LinkScroll
+                    activeClass="active"
+                    to="courses"
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    onSetActive={() => {
+                      setActiveLink("courses");
+                    }}
+                    className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                  >
+                    Seleccionar
+                  </LinkScroll> */}
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -120,6 +138,19 @@ const Courses = () => {
                 </ul> */}
                 <div className="flex flex-col w-full justify-center flex-none mt-12 mb-8">
                   <ButtonOutline>Seleccionar</ButtonOutline>
+                  {/* <LinkScroll
+                    activeClass="active"
+                    to="courses"
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    onSetActive={() => {
+                      setActiveLink("courses");
+                    }}
+                    className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                  >
+                    Conoce más
+                  </LinkScroll> */}
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -164,6 +195,19 @@ const Courses = () => {
                 </ul> */}
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   <ButtonOutline>Seleccionar</ButtonOutline>
+                  {/* <LinkScroll
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    onSetActive={() => {
+                      setActiveLink("contact");
+                    }}
+                    className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                  >
+                    Conoce más
+                  </LinkScroll> */}
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>

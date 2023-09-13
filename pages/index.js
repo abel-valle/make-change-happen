@@ -16,8 +16,8 @@ export default function Home() {
         <WelcomeMore />
         <Courses />
         <AboutMe />
-        <Podcast />
         <Contact />
+        {/* <Podcast /> */}
       </Layout>
     </>
   );

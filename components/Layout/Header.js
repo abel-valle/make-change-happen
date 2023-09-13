@@ -2,17 +2,19 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
-import ButtonOutline from "../misc/ButtonOutline.";
 import LogoMCH from "../../public/assets/logo.svg";
+import ButtonOutline from "../misc/ButtonOutline.";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
   const [scrollActive, setScrollActive] = useState(false);
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScrollActive(window.scrollY > 20);
     });
   }, []);
+
   return (
     <>
       <header
@@ -25,7 +27,7 @@ const Header = () => {
           <div className="col-start-1 col-end-2 flex items-center">
             <LogoMCH className="h-10 w-auto" />
           </div>
-          <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500  items-center">
+          <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500 items-center">
             <LinkScroll
               activeClass="active"
               to="start"
@@ -38,8 +40,8 @@ const Header = () => {
               className={
                 "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "start"
-                  ? " text-teal-500 animation-active "
-                  : " text-black-500 hover:text-teal-500 a")
+                  ? "  text-teal-500 animation-active "
+                  : " text-black-500 hover:text-teal-500 ")
               }
             >
               Inicio
@@ -57,7 +59,7 @@ const Header = () => {
               className={
                 "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "courses"
-                  ? " text-teal-500 animation-active "
+                  ? "  text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 ")
               }
             >
@@ -76,50 +78,12 @@ const Header = () => {
               className={
                 "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "aboutme"
-                  ? " text-teal-500 animation-active "
+                  ? "  text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 ")
               }
             >
               Sobre Mí
             </LinkScroll>
-
-            <LinkScroll
-              activeClass="active"
-              to="podcast"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("podcast");
-              }}
-              className={
-                "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "podcast"
-                  ? " text-teal-500 animation-active "
-                  : " text-black-500 hover:text-teal-500 ")
-              }
-            >
-              Podcast
-            </LinkScroll>
-
-{/*             <LinkScroll
-              activeClass="active"
-              to="notexists"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("notexists");
-              }}
-              className={
-                "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "notexists"
-                  ? " text-teal-500 animation-active "
-                  : " text-black-500 hover:text-teal-500 ")
-              }
-            >
-              Blog
-            </LinkScroll> */}
 
             <LinkScroll
               activeClass="active"
@@ -133,18 +97,34 @@ const Header = () => {
               className={
                 "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "contact"
-                  ? " text-teal-500 animation-active "
+                  ? "  text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 ")
               }
             >
               Contacto
             </LinkScroll>
           </ul>
+          
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <ButtonOutline>Registrarse</ButtonOutline>
+            {/* <LinkScroll
+              activeClass="active"
+              to="enroll"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              onSetActive={() => {
+                setActiveLink("enroll");
+              }}
+              className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium text-sm px-5 py-3.5 mr-2 mb-2 focus:outline-none"
+            >
+              Registrarse
+            </LinkScroll> */}
           </div>
         </nav>
       </header>
+
+      {/* ------------------------------------------------------------------ */}
       {/* Mobile Navigation */}
 
       <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
@@ -152,17 +132,17 @@ const Header = () => {
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
               activeClass="active"
-              to="about"
+              to="start"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("about");
+                setActiveLink("start");
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "about"
-                  ? "  border-teal-500 text-teal-500"
+                  ? " border-teal-500 text-teal-500"
                   : " border-transparent")
               }
             >
@@ -180,7 +160,7 @@ const Header = () => {
                   d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              About
+              Inicio
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -194,7 +174,7 @@ const Header = () => {
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "feature"
-                  ? "  border-teal-500 text-teal-500"
+                  ? " border-teal-500 text-teal-500"
                   : " border-transparent ")
               }
             >
@@ -226,7 +206,7 @@ const Header = () => {
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "pricing"
-                  ? "  border-teal-500 text-teal-500"
+                  ? " border-teal-500 text-teal-500"
                   : " border-transparent ")
               }
             >
@@ -258,7 +238,7 @@ const Header = () => {
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "testimoni"
-                  ? "  border-teal-500 text-teal-500"
+                  ? " border-teal-500 text-teal-500"
                   : " border-transparent ")
               }
             >

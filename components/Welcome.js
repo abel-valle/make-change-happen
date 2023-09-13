@@ -19,7 +19,7 @@ const Welcome = () => {
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-teal-500 leading-normal">
               Bienvenido
             </h1>
-            <h2>Este es el lugar donde los cambios suceden.</h2>
+            
             <p className="text-justify text-black-500 mt-6 mb-4">
               Si aterrizaste en mi sitio web, es porque probablemente seas un{" "}
               <span className="text-teal-500">Game Changer</span>, en busca de
