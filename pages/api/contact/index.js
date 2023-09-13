@@ -16,7 +16,7 @@ export default async function handle(req, res) {
       name: name,
       email: email,
       subject: subject,
-      phone: subject,
+      phone: phone,
     },
   });
   res.json(result);
