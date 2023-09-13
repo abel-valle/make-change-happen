@@ -1,12 +1,14 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import Image from "next/image";
 import ButtonPrimary from "./misc/ButtonPrimary";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import { Link as LinkScroll } from "react-scroll";
 
 const Welcome = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+  const [activeLink, setActiveLink] = useState(null);
 
   return (
     <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto" id="start">
@@ -19,7 +21,7 @@ const Welcome = () => {
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-teal-500 leading-normal">
               Bienvenido
             </h1>
-            
+
             <p className="text-justify text-black-500 mt-6 mb-4">
               Si aterrizaste en mi sitio web, es porque probablemente seas un{" "}
               <span className="text-teal-500">Game Changer</span>, en busca de
@@ -45,7 +47,20 @@ const Welcome = () => {
                 </span>
               </i>
             </p>
-            <ButtonPrimary>Comienza ahora</ButtonPrimary>
+            {/* <ButtonPrimary>Comienza ahora</ButtonPrimary> */}
+            <LinkScroll
+              activeClass="active"
+              to="journey"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              onSetActive={() => {
+                setActiveLink("journey");
+              }}
+              className="py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-yellow-500 hover:shadow-teal-md transition-all outline-none undefined"
+            >
+              Comienza Ahora
+            </LinkScroll>
           </div>
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>

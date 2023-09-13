@@ -1,12 +1,14 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import Image from "next/image";
 import ButtonOutline from "./misc/ButtonOutline.";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import { Link as LinkScroll } from "react-scroll";
 
 const Courses = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+  const [activeLink, setActiveLink] = useState(null);
 
   return (
     <div
@@ -56,7 +58,6 @@ const Courses = () => {
                   />
                 </div>
                 <p className="text-lg text-black-600 font-medium my-1 sm:my-7">
-                  Curso<br></br>
                   <span className="text-black-500">
                     The Journey of the Game Changer
                   </span>
@@ -74,11 +75,11 @@ const Courses = () => {
                   </li>
                 </ul> */}
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-2">
-                  <p className="text-2xl text-black-600 text-center mb-2 ">
+                  <p className="text-2xl text-black-600 text-center mb-8">
                     Gratis
                   </p>
-                  <ButtonOutline>Seleccionar</ButtonOutline>
-                  {/* <LinkScroll
+                  {/* <ButtonOutline>Seleccionar</ButtonOutline> */}
+                  <LinkScroll
                     activeClass="active"
                     to="courses"
                     spy={true}
@@ -87,10 +88,10 @@ const Courses = () => {
                     onSetActive={() => {
                       setActiveLink("courses");
                     }}
-                    className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                    className="font-medium tracking-wide py-2 px-5 sm:px-8 text-white-500 bg-teal-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-yellow-500 hover:text-white-500 transition-all hover:shadow-teal"
                   >
                     Seleccionar
-                  </LinkScroll> */}
+                  </LinkScroll>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -137,20 +138,20 @@ const Courses = () => {
                   </li>
                 </ul> */}
                 <div className="flex flex-col w-full justify-center flex-none mt-12 mb-8">
-                  <ButtonOutline>Seleccionar</ButtonOutline>
-                  {/* <LinkScroll
+                  {/* <ButtonOutline>Conoce más</ButtonOutline> */}
+                  <LinkScroll
                     activeClass="active"
-                    to="courses"
+                    to="contact"
                     spy={true}
                     smooth={true}
                     duration={1000}
                     onSetActive={() => {
-                      setActiveLink("courses");
+                      setActiveLink("contact");
                     }}
-                    className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                    className="font-medium tracking-wide py-2 px-5 sm:px-8 text-white-500 bg-teal-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-yellow-500 hover:text-white-500 transition-all hover:shadow-teal"
                   >
-                    Conoce más
-                  </LinkScroll> */}
+                    Contáctanos
+                  </LinkScroll>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
@@ -194,20 +195,20 @@ const Courses = () => {
                   </li>
                 </ul> */}
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                  <ButtonOutline>Seleccionar</ButtonOutline>
-                  {/* <LinkScroll
+                  {/* <ButtonOutline>Conoce más</ButtonOutline> */}
+                  <LinkScroll
                     activeClass="active"
-                    to="contact"
+                    to="courses"
                     spy={true}
                     smooth={true}
                     duration={1000}
                     onSetActive={() => {
-                      setActiveLink("contact");
+                      setActiveLink("courses");
                     }}
-                    className="text-white-500 bg-teal-500 hover:bg-yellow-500 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                    className="font-medium tracking-wide py-2 px-5 sm:px-8 text-white-500 bg-teal-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-yellow-500 hover:text-white-500 transition-all hover:shadow-teal"
                   >
                     Conoce más
-                  </LinkScroll> */}
+                  </LinkScroll>
                 </div>
               </motion.div>
             </ScrollAnimationWrapper>
