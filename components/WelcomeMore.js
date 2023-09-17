@@ -42,7 +42,7 @@ const WelcomeMore = () => {
                 <p className="text-justify text-black-500 mt-6 mb-2">
                   Es un{" "}
                   <span className="text-teal-500">
-                    framework de autoconocimiento
+                    framework de autodescubrimiento
                   </span>
                   , que ayuda y acompaña a las personas en la evolución de un
                   mindset.
@@ -50,11 +50,11 @@ const WelcomeMore = () => {
 
                 <p className="text-justify text-black-500 mt-2 mb-6">
                   Creemos que a través de pequeños ajustes en la rutina del día
-                  con día, las personas pueden encontrar la motivación para
-                  tomar la decisión y acción de{" "}
-                  <span className="text-teal-500">RE-INVENTARSE</span> y{" "}
-                  <span className="text-teal-500">RE-DISEÑAR</span> la
-                  trayectoria de su vida personal y profesional de manera
+                  con día, las personas pueden encontrar la motivación para{" "}
+                  <span className="text-teal-500">
+                    tomar la decisión y acción de RE-INVENTARSE y RE-DISEÑAR
+                  </span>{" "}
+                  la trayectoria de su vida personal y profesional de manera
                   consciente.
                 </p>
               </div>
@@ -63,7 +63,10 @@ const WelcomeMore = () => {
         </div>
       </div>
 
-      <div className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14" id="journey">
+      <div
+        className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+        id="journey"
+      >
         <div className="max-w-screen-xl mt-4 px-8 xl:px-16 mx-auto">
           <ScrollAnimationWrapper>
             <motion.div
@@ -78,22 +81,22 @@ const WelcomeMore = () => {
                 <p className="text-justify text-black-500 mt-6 mb-2">
                   Un{" "}
                   <span className="text-teal-500">Mindset de Game Changer</span>
-                  , está basado en el pensamiento de que cada persona es
-                  responsable de tomar la decisión y acción para diseñar una
-                  visión clara de lo que quiere lograr en su vida.{" "}
+                  , se basa en el pensamiento de que cada persona es responsable
+                  de tomar la decisión y acción para diseñar una visión clara de
+                  lo que quiere lograr en su vida. Un{" "}
                   <span className="text-teal-500">
-                    Un framekwork será la guía que te acompañará paso a paso a
+                    framekwork será la guía que te acompañará paso a paso a
                     través de 5 niveles
                   </span>{" "}
-                  para lograr los cambios, avances y resultados de una manera
+                  para obtener los cambios, avances y resultados de una forma
                   más divertida y ágil.
                 </p>
-                <p className="text-justify text-black-500 mt-2 mb-2">
+                <p className="text-justify mt-2 mb-2">
                   Queremos que cada herramienta que tomes en{" "}
                   <span className="text-teal-500">
                     Make Change Happen, impacte de manera positiva en ti
                   </span>
-                  , permitiéndole lograr la vida que te genera bienestar y te
+                  , apoyándote en lograr la vida que te genera bienestar y te
                   conecta con tu{" "}
                   <span className="text-teal-500">SUPERPODER</span>.
                 </p>
