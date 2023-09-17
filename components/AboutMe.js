@@ -27,21 +27,20 @@ const AboutMe = () => {
                   Mi nombre es Roxana Serrato
                 </h1>
                 <p className="text-justify text-black-500 mt-6 mb-2">
-                  Cuento con más de 14 años de experiencia diseñando e
+                  Cuento con más de 14 años de experiencia, diseñando e
                   implementando estrategias en Desarrollo Organizacional y
                   Gestión del Cambio, dirigidas para diversos sectores como son:
                   Organizaciones Civiles, Consultoría en RRHH, Servicios de
                   Resguardo de Información, Desarrollo de Software, Aseguradoras
                   y Retail.
                 </p>
-                <p className="text-justify text-black-500 mt-2 mb-2">
-                  Actualmente soy Emprendedora Digital, Speaker y Consultor en
-                  Gestión del Cambio y creadora del framework de
-                  autoconocimiento{" "}
-                  <span className="text-teal-500">Make Change Happen</span>, que
-                  tiene por misión ayudar y acompañar a las personas en la
-                  evolución de un mindset a través de sesiones individuales,
-                  cursos online y workshops para equipos de trabajo y empresas.
+                <p className="text-justify mt-2 mb-2">  
+                  En la actualidad soy Emprendedora Digital, Speaker,
+                  Consultor en Gestión del Cambio y <span className="text-teal-500">creadora del framework de
+                  autodescubrimiento Make Change Happen</span>, que tiene por misión
+                  ayudar y acompañar a las personas en la evolución de un
+                  mindset a través de <span className="text-teal-500">sesiones individuales, cursos online y
+                  workshops para equipos de trabajo y empresas.</span>
                 </p>
               </div>
               <div className="flex w-full">
@@ -50,7 +49,7 @@ const AboutMe = () => {
                   variants={scrollAnimation}
                 >
                   <Image
-                    src="/assets/img-081914-1280x1600.jpeg"
+                    src="/assets/img-105445-1280x1600.jpeg"
                     alt="Make Change Happen"
                     quality={100}
                     width={300}
@@ -77,11 +76,11 @@ const AboutMe = () => {
                   variants={scrollAnimation}
                 >
                   <Image
-                    src="/assets/img-081839-1600x1600.jpeg"
+                    src="/assets/img-105504-1800x1398.jpeg"
                     alt="Make Change Happen"
                     quality={100}
                     width={600}
-                    height={600}
+                    height={466}
                     layout="responsive"
                   />
                   <p className="text-center mt-4">
@@ -115,8 +114,8 @@ const AboutMe = () => {
                   Certificaciones
                 </h1>
                 <p className="mt-4 mb-2">
-                  2023 – Certificación Internacional en Coaching Ejecutivo – Tecnológico de
-                  Monterrey
+                  2023 – Certificación Internacional en Coaching Ejecutivo –
+                  Tecnológico de Monterrey
                 </p>
                 <p className="mb-2">
                   2022 - Agile Change Management Certified by Change Americas &

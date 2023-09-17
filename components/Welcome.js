@@ -24,7 +24,7 @@ const Welcome = () => {
 
             <p className="text-justify text-black-500 mt-6 mb-4">
               Si aterrizaste en mi sitio web, es porque probablemente seas un{" "}
-              <span className="text-teal-500">Game Changer</span>, en busca de
+              <span className="text-teal-500">GAME CHANGER</span>, en busca de
               herramientas prácticas, ágiles y útiles para hacer del{" "}
               <span className="text-teal-500">AUTODESARROLLO</span> un{" "}
               <span className="text-teal-500">SUPERPODER</span> que transforme
