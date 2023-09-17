@@ -29,7 +29,7 @@ const Courses = () => {
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
             >
               <span className="text-teal-500">
-                Elige el plan que sea mejor para tí y explora sus
+                Elige el plan que sea mejor para ti y explora sus
                 oportunidades.
               </span>
               <p>
@@ -62,23 +62,11 @@ const Courses = () => {
                     The Journey of the Game Changer
                   </span>
                 </p>
-                {/* <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                  <li className="relative check custom-list my-1">
-                    Una hora de contenido en una plataforma digital.
-                  </li>
-                  <li className="relative check custom-list my-1">
-                    Un workbook digital con ejercicios prácticos.
-                  </li>
-                  <li className="relative check custom-list my-1">
-                    Un test para identificar en qué etapa del journey del cambio
-                    te encuentras ahora.
-                  </li>
-                </ul> */}
+
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-2">
                   <p className="text-2xl text-black-600 text-center mb-8">
-                    Gratis
+                    Test Gratuito
                   </p>
-                  {/* <ButtonOutline>Seleccionar</ButtonOutline> */}
                   <LinkScroll
                     activeClass="active"
                     to="courses"
@@ -90,7 +78,7 @@ const Courses = () => {
                     }}
                     className="font-medium tracking-wide py-2 px-5 sm:px-8 text-white-500 bg-teal-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-yellow-500 hover:text-white-500 transition-all hover:shadow-teal"
                   >
-                    Seleccionar
+                    Conoce más
                   </LinkScroll>
                 </div>
               </motion.div>
@@ -117,28 +105,8 @@ const Courses = () => {
                 <p className="text-lg text-black-600 font-medium my-2 sm:my-7">
                   Packs de 3 ó 6 sesiones individuales{" "}
                 </p>
-                {/* <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                  <li className="relative check custom-list my-1">
-                    Elige un plan de 3 ó 6 sesiones de acompañamiento
-                    personalizado.
-                  </li>
-                  <li className="relative check custom-list my-1">
-                    Workbook Digital
-                  </li>
-                  <li className="relative check custom-list my-1">
-                    Test: Autoconocimiento, Estilo de Administración del Tiempo,
-                    Estilo de Comunicación.
-                  </li>
-                  <li className="relative check custom-list my-1">
-                    Test para medir nivel de madurez de 13 Competencias
-                    Profesionales.
-                  </li>
-                  <li className="relative check custom-list my-1">
-                    Un Journal Reflection (fisico) para registrar tus avances.{" "}
-                  </li>
-                </ul> */}
+
                 <div className="flex flex-col w-full justify-center flex-none mt-12 mb-8">
-                  {/* <ButtonOutline>Conoce más</ButtonOutline> */}
                   <LinkScroll
                     activeClass="active"
                     to="contact"
@@ -177,23 +145,6 @@ const Courses = () => {
                 <p className="text-lg text-black-600 font-medium my-2 sm:my-7">
                   Workshops para Equipos de Trabajos/Empresas{" "}
                 </p>
-                {/* <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                  <li className="relative check custom-list my-1">
-                    Facilitación de 4 hrs. de sesión grupal teórica y práctica
-                    para idear el prototipo de un producto y/o servicio.
-                  </li>
-                  <li className="relative check custom-list my-1">
-                    Workbook Digital con ejercicios prácticos.
-                  </li>
-                  <li className="relative check custom-list my-1">
-                    Test para medir nivel de madurez de 13 Competencias
-                    Profesionales.
-                  </li>
-                  <li className="relative check custom-list my-1">
-                    Un Reporte con los Resultados del nivel de madurez de las
-                    competencias del equipo.{" "}
-                  </li>
-                </ul> */}
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                   {/* <ButtonOutline>Conoce más</ButtonOutline> */}
                   <LinkScroll
