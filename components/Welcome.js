@@ -47,15 +47,15 @@ const Welcome = () => {
                 </span>
               </i>
             </p>
-            {/* <ButtonPrimary>Comienza ahora</ButtonPrimary> */}
+
             <LinkScroll
               activeClass="active"
-              to="journey"
+              to="howto"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("journey");
+                setActiveLink("howto");
               }}
               className="py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-yellow-500 hover:shadow-teal-md transition-all outline-none undefined"
             >
