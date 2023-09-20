@@ -11,13 +11,13 @@ const Welcome = () => {
   const [activeLink, setActiveLink] = useState(null);
 
   return (
-    <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto" id="start">
+    <div className="max-w-screen-xl mt-24 px-8 xl:px-16 mx-auto" id="welcome">
       <ScrollAnimationWrapper>
         <motion.div
           className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
           variants={scrollAnimation}
         >
-          <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
+          <div className="flex flex-col justify-center items-start row-start-2 sm:row-start-1">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-teal-500 leading-normal">
               Bienvenido
             </h1>

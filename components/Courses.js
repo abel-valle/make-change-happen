@@ -56,14 +56,12 @@ const Courses = () => {
                     alt="Plan Básico"
                   />
                 </div>
-                <p className="text-lg text-black-600 font-medium my-1 sm:my-7">
-                  <span className="text-black-500">
+                <p className="text-lg text-black-500 font-medium my-1 sm:my-7">
                     The Journey of the Game Changer
-                  </span>
                 </p>
 
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-2">
-                  <p className="text-2xl text-black-600 text-center mb-8">
+                  <p className="text-2xl text-black-500 text-center mb-8">
                     Test Gratuito
                   </p>
                   <LinkScroll
@@ -101,7 +99,7 @@ const Courses = () => {
                     alt="Plan Estándar"
                   />
                 </div>
-                <p className="text-lg text-black-600 font-medium my-2 sm:my-7">
+                <p className="text-lg text-black-500 font-medium my-2 sm:my-7">
                   Packs de sesiones individuales{" "}
                 </p>
 
@@ -141,7 +139,7 @@ const Courses = () => {
                     alt="Plan Premium"
                   />
                 </div>
-                <p className="text-lg text-black-600 font-medium my-2 sm:my-7">
+                <p className="text-lg text-black-500 font-medium my-2 sm:my-7">
                   Workshops para Equipos de Trabajos/Empresas{" "}
                 </p>
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
