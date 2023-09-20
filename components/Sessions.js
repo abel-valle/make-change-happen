@@ -50,13 +50,9 @@ const Sessions = () => {
                 <span className="text-teal-500">
                   sesiones individuales son el comienzo
                 </span>
-                , los avances serán el resultado de tu compromiso, disciplina,
-                tiempo invertido y responsabilidad para tomar acción y dar
-                seguimiento a tu plan.
-              </p>
-              <p className="text-justify mt-2 mb-2">
-                Las personas tenemos el poder de tomar el control de nuestra
-                realidad, para vivir con intención y consciencia.
+                , tus logros serán el resultado del
+                compromiso, disciplina, frecuencia y acción para dar seguimiento a
+                tu plan.
               </p>
               <p className="text-justify mt-2 mb-8">
                 <span className="text-teal-500">
@@ -70,10 +66,7 @@ const Sessions = () => {
           </motion.div>
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper>
-          <motion.div
-            className="py-12 w-full px-8"
-            variants={scrollAnimation}
-          >
+          <motion.div className="py-12 w-full px-8" variants={scrollAnimation}>
             <Image
               src="/assets/img-104947-1600x900.png"
               alt="Make Change Happen"
