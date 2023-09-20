@@ -17,7 +17,7 @@ const Header = () => {
     <>
       <header
         className={
-          "fixed top-0 w-full  z-30 bg-white-500 transition-all " +
+          "fixed top-0 w-full z-30 bg-white-500 transition-all " +
           (scrollActive ? " shadow-md pt-0" : " pt-4")
         }
       >
@@ -28,12 +28,12 @@ const Header = () => {
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500 items-center">
             <LinkScroll
               activeClass="active"
-              to="start"
+              to="welcome"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("start");
+                setActiveLink("welcome");
               }}
               className={
                 "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
