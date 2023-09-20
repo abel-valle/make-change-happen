@@ -4,6 +4,7 @@ import Welcome from "../components/Welcome";
 import WhatIs from "../components/WhatIs";
 import HowTo from "../components/HowTo";
 import Courses from "../components/Courses";
+import Sessions from "../components/Sessions";
 import AboutMe from "../components/AboutMe";
 // import Podcast from "../components/Podcast";
 import Enroll from "../components/Enroll";
@@ -18,6 +19,7 @@ export default function Home() {
         <WhatIs />
         <HowTo />
         <Courses />
+        <Sessions />
         <AboutMe />
         <Enroll />
         <Contact />

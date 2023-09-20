@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
 // Import react scroll
 import { Link as LinkScroll } from "react-scroll";
 import LogoMCH from "../../public/assets/logo.svg";
-import ButtonOutline from "../misc/ButtonOutline.";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState(null);
@@ -40,7 +38,7 @@ const Header = () => {
               className={
                 "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "start"
-                  ? "  text-teal-500 animation-active "
+                  ? " text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 ")
               }
             >
@@ -59,7 +57,7 @@ const Header = () => {
               className={
                 "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "courses"
-                  ? "  text-teal-500 animation-active "
+                  ? " text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 ")
               }
             >
@@ -141,7 +139,7 @@ const Header = () => {
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "about"
+                (activeLink === "start"
                   ? " border-teal-500 text-teal-500"
                   : " border-transparent")
               }
@@ -160,12 +158,12 @@ const Header = () => {
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="feature"
+              to="courses"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("feature");
+                setActiveLink("courses");
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
@@ -187,12 +185,12 @@ const Header = () => {
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="pricing"
+              to="aboutme"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("pricing");
+                setActiveLink("aboutme");
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
@@ -218,12 +216,12 @@ const Header = () => {
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="testimoni"
+              to="contact"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("testimoni");
+                setActiveLink("contact");
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +

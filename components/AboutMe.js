@@ -13,7 +13,7 @@ const AboutMe = () => {
         className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
         id="aboutme"
       >
-        <div className="max-w-screen-xl mt-4 px-8 xl:px-16 mx-auto">
+        <div className="max-w-screen-xl px-8 xl:px-16 mx-auto">
           <ScrollAnimationWrapper>
             <motion.div
               className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
@@ -64,7 +64,7 @@ const AboutMe = () => {
       </div>
 
       <div className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14">
-        <div className="max-w-screen-xl mt-4 px-8 xl:px-16 mx-auto">
+        <div className="max-w-screen-xl px-8 xl:px-16 mx-auto">
           <ScrollAnimationWrapper>
             <motion.div
               className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"

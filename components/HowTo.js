@@ -50,7 +50,7 @@ const HowTo = () => {
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
-                  src="/assets/img-092156-1400x1400.png"
+                  src="/assets/img-110032-1400x1400.png"
                   alt="Make Change Happen"
                   quality={100}
                   width={600}

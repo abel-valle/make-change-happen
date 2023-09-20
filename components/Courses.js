@@ -1,6 +1,5 @@
 import React, { useMemo, useState } from "react";
 import Image from "next/image";
-import ButtonOutline from "./misc/ButtonOutline.";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
@@ -22,7 +21,7 @@ const Courses = () => {
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
             >
-              Cursos
+              <span className="text-teal-500">Cursos</span>
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
@@ -103,7 +102,7 @@ const Courses = () => {
                   />
                 </div>
                 <p className="text-lg text-black-600 font-medium my-2 sm:my-7">
-                  Packs de 3 ó 6 sesiones individuales{" "}
+                  Packs de sesiones individuales{" "}
                 </p>
 
                 <div className="flex flex-col w-full justify-center flex-none mt-12 mb-8">
