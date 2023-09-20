@@ -1,10 +1,13 @@
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
 import Welcome from "../components/Welcome";
-import WelcomeMore from "../components/WelcomeMore";
+import WhatIs from "../components/WhatIs";
+import HowTo from "../components/HowTo";
 import Courses from "../components/Courses";
+import Sessions from "../components/Sessions";
 import AboutMe from "../components/AboutMe";
-import Podcast from "../components/Podcast";
+// import Podcast from "../components/Podcast";
+import Enroll from "../components/Enroll";
 import Contact from "../components/Contact";
 
 export default function Home() {
@@ -13,9 +16,12 @@ export default function Home() {
       <SeoHead title="Make Change Happen" />
       <Layout>
         <Welcome />
-        <WelcomeMore />
+        <WhatIs />
+        <HowTo />
         <Courses />
+        <Sessions />
         <AboutMe />
+        <Enroll />
         <Contact />
         {/* <Podcast /> */}
       </Layout>
