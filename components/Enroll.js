@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
-const Contact = () => {
+const Enroll = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   const { register, handleSubmit, errors, formState } = useForm();
-    const [isEnrollSuccess, setIsEnrollSuccess] = useState(false);
+  const [isEnrollSuccess, setIsEnrollSuccess] = useState(false);
 
   const [nameEnroll, setNameEnroll] = useState("");
   const [emailEnroll, setEmailEnroll] = useState("");
@@ -48,7 +48,8 @@ const Contact = () => {
               </p>
 
               <form onSubmit={submitEnrollData}>
-                <div className="grid gap-6 mb-6 sm:grid-cols-3 bg-yellow-100 rounded-lg mb-8 px-8">
+                <div className="grid bg-yellow-100 gap-4 mb-6 sm:grid-cols-3 rounded-lg mb-8 px-8">
+
                   <div className="mt-6 sm:mt-8 sm:mb-8">
                     <input
                       type="text"
@@ -69,7 +70,7 @@ const Contact = () => {
                       required
                     />
                   </div>
-                  <div className="mt-1 mb-6 sm:mt-8 sm:mb-8">
+                  <div className="mt-2 mb-6 sm:mt-8 sm:mb-8">
                     <input
                       type="submit"
                       value="¡Registrarme!"
@@ -95,4 +96,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Enroll;
