@@ -23,13 +23,13 @@ const Footer = () => {
               <Instagram className="h-6 w-6" />
             </div>
           </div>
-          <p className="text-gray-400">
-            © {new Date().getFullYear()} - Make Change Management
+          <p className="text-sm sm:text-md text-gray-400">
+            ©{new Date().getFullYear()} - Make Change Management
           </p>
         </div>
 
-        <div className="row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Invierte</p>
+        <div className="text-sm sm:text-md row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
+          <p className="text-black-600 mb-4 font-medium text-sm sm:text-md">Invierte</p>
           <ul className="text-black-500">
             <li className="my-2 hover:text-teal-500 cursor-pointer transition-all">
               Afíliate{" "}
@@ -40,8 +40,8 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className=" row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Otros</p>
+        <div className="text-sm sm:text-md row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
+          <p className="text-black-600 mb-4 font-medium text-sm sm:text-md">Otros</p>
           <ul className="text-black-500 ">
             <li className="my-2 hover:text-teal-500 cursor-pointer transition-all">
               Descargas{" "}
@@ -55,8 +55,8 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Involúcrate</p>
+        <div className="text-sm sm:text-md row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
+          <p className="text-black-600 mb-4 font-medium text-sm sm:text-md">Involúcrate</p>
           <ul className="text-black-500">
             <li className="my-2 hover:text-teal-500 cursor-pointer transition-all">
               Make Change Management{" "}

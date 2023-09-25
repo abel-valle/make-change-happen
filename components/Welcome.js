@@ -42,16 +42,7 @@ const Welcome = () => {
               </span>
               <br />
             </p>
-            {/* 
-            <p className="text-justify mb-4">
-              <i>
-                Toma una taza de café o té…{" "}
-                <span className="text-teal-500">
-                  ¡Comencemos juntos este Journey del Cambio!
-                </span>
-              </i>
-            </p>
- */}
+
             <LinkScroll
               activeClass="active"
               to="howto"
