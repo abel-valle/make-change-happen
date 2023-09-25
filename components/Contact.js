@@ -47,7 +47,7 @@ const Contact = () => {
               <h1 className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-medium text-teal-500 mb-2">
                 ¡Contáctanos!
               </h1>
-              <p className="text-sm sm:text-lg text-black-100 mb-6">Nos encanta saber sobre tí.</p>
+              <p className="text-sm sm:text-lg text-black-100 mb-6">Nos encanta saber sobre ti.</p>
 
               <form onSubmit={submitContactData}>
                 <div className="grid bg-teal-100 gap-2 mb-2 sm:gap-6 sm:mb-6 sm:grid-cols-4 rounded-lg mb-8 px-8">
