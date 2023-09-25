@@ -70,6 +70,7 @@ const Enroll = () => {
                       required
                     />
                   </div>
+                  <div className="text-teal-500">{formState.isSubmitting}</div>
                   <div className="mt-2 mb-6 sm:mt-8 sm:mb-8">
                     <input
                       type="submit"
