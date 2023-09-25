@@ -37,7 +37,7 @@ const Header = () => {
               }}
               className={
                 "px-4 py-1 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "start"
+                (activeLink === "welcome"
                   ? " text-teal-500 animation-active "
                   : " text-black-500 hover:text-teal-500 ")
               }
@@ -130,16 +130,16 @@ const Header = () => {
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
               activeClass="active"
-              to="start"
+              to="welcome"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("start");
+                setActiveLink("welcome");
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "start"
+                (activeLink === "welcome"
                   ? " border-teal-500 text-teal-500"
                   : " border-transparent")
               }

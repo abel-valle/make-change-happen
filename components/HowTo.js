@@ -9,7 +9,7 @@ const HowTo = () => {
 
   return (
     <div
-      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+      className="bg-gradient-to-b from-white-300 to-white-500 w-full"
       id="howto"
     >
       <div className="max-w-screen-xl px-8 xl:px-16 mx-auto">
@@ -18,7 +18,7 @@ const HowTo = () => {
             className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
             variants={scrollAnimation}
           >
-            <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
+            <div className=" flex flex-col justify-center items-start row-start-1 sm:row-start-1">
               <h1 className="text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
                 ¿Cómo logramos desarrollar un mindset de Game Changer?
               </h1>
@@ -36,6 +36,7 @@ const HowTo = () => {
                 para obtener los cambios, avances y resultados de una forma más
                 divertida y ágil.
               </p>
+{/* 
               <p className="text-justify mt-2 mb-2">
                 Queremos que cada herramienta que tomes en{" "}
                 <span className="text-teal-500">
@@ -45,6 +46,7 @@ const HowTo = () => {
                 conecta con tu <span className="text-teal-500">SUPERPODER</span>
                 .
               </p>
+ */}              
             </div>
 
             <div className="flex w-full">

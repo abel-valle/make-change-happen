@@ -9,7 +9,7 @@ const Sessions = () => {
 
   return (
     <div
-      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+      className="bg-gradient-to-b from-white-300 to-white-500 w-full"
       id="sessions"
     >
       <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
@@ -21,11 +21,11 @@ const Sessions = () => {
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
-                  src="/assets/img-073209-1600x1066.jpeg"
+                  src="/assets/img-035858-1400x1400.png"
                   alt="Make Change Happen"
                   quality={100}
                   width={600}
-                  height={400}
+                  height={600}
                   layout="responsive"
                 />
               </motion.div>
@@ -40,19 +40,20 @@ const Sessions = () => {
                 Mi compromiso contigo es{" "}
                 <span className="text-teal-500">acompañar tu proceso</span> a
                 través de preguntas que faciliten la clarificación de la visión
-                de cambio a lograr. Además de brindarte herramientas digitales
+                de cambio a lograr.
+              </p>
+              {/* 
+              Además de brindarte herramientas digitales
                 como: workbooks, journal de reflexión y tests que serán una guía
                 ágil y útil para apoyar tu autodescubrimiento.
-              </p>
-
+ */}
               <p className="text-justify mt-2 mb-2">
                 Las{" "}
                 <span className="text-teal-500">
                   sesiones individuales son el comienzo
                 </span>
-                , tus logros serán el resultado del
-                compromiso, disciplina, frecuencia y acción para dar seguimiento a
-                tu plan.
+                , tus logros serán el resultado del compromiso, disciplina,
+                frecuencia y acción para dar seguimiento a tu plan.
               </p>
               <p className="text-justify mt-2 mb-8">
                 <span className="text-teal-500">
@@ -65,8 +66,14 @@ const Sessions = () => {
             </div>
           </motion.div>
         </ScrollAnimationWrapper>
+      </div>
+
+      <div className="max-w-screen-xl px-6 sm:px-2 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
+        <h1 className="text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
+          Packs de Sesiones
+        </h1>
         <ScrollAnimationWrapper>
-          <motion.div className="py-12 w-full px-8" variants={scrollAnimation}>
+          <motion.div className="py-0 w-full px-0 mb-14" variants={scrollAnimation}>
             <Image
               src="/assets/img-104947-1600x900.png"
               alt="Make Change Happen"
