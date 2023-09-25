@@ -23,10 +23,10 @@ const AboutMe = () => {
                 <h1 className="text-1xl lg:text-2xl xl:text-3xl font-medium text-black-500">
                   ¡Hola!
                 </h1>
-                <h1 className="text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500">
+                <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500">
                   Mi nombre es Roxana Serrato
                 </h1>
-                <p className="text-black-500 mt-6 mb-2">
+                <p className="text-black-500 text-sm sm:text-lg mt-6 mb-2">
                   Cuento con más de 14 años de experiencia, diseñando e
                   implementando estrategias en Desarrollo Organizacional y
                   Gestión del Cambio, dirigidas para diversos sectores como son:
@@ -95,10 +95,10 @@ const AboutMe = () => {
               </div>
 
               <div className="flex flex-col justify-center items-start row-start-1 sm:row-start-1">
-                <h1 className="text-1xl lg:text-2xl xl:text-3xl font-medium text-teal-500">
+                <h1 className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-medium text-teal-500">
                   Formación y Estudios
                 </h1>
-                <p className="text-black-500 mt-4 mb-2">
+                <p className="text-black-500 text-sm sm:text-lg mt-4 mb-2">
                   Licenciatura en Psicología Organizacional – UNIVERSIDAD
                   AUTÓNOMA DE QUERÉTARO 2004 - 2008, Titulada con mención
                   honorífica
@@ -113,20 +113,20 @@ const AboutMe = () => {
                   Humanista Gestalt
                 </p>
 */}
-                <h1 className="text-1xl lg:text-2xl xl:text-3xl font-medium text-teal-500 mt-4">
+                <h1 className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-medium text-teal-500 mt-4">
                   Certificaciones
                 </h1>
-                <p className="mt-4 mb-2">
+                <p className="text-sm sm:text-lg mt-4 mb-2">
                   2023 – Certificación Internacional en Coaching Ejecutivo –
                   Tecnológico de Monterrey
                 </p>
 
-                <p className="mb-2">
+                <p className="text-sm sm:text-lg mb-2">
                   2022 - Agile Change Management Certified by Change Americas &
                   Silicon Valley
                 </p>
 
-                <p className="mb-2">
+                <p className="text-sm sm:text-lg mb-2">
                   2021 - PROSCI Certified Change Management Practitioner
                 </p>
 {/*

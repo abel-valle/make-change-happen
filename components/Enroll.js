@@ -40,10 +40,10 @@ const Contact = () => {
         <center>
           <ScrollAnimationWrapper>
             <motion.div variants={scrollAnimation}>
-              <h1 className="text-2xl lg:text-2xl xl:text-3xl font-medium text-teal-500 mb-2">
+              <h1 className="text-xl sm:text-2xl lg:text-2xl xl:text-3xl font-medium text-teal-500 mb-2">
                 Regístrate
               </h1>
-              <p className="text-black-100 mb-6">
+              <p className="text-sm sm:text-lg text-black-100 mb-6">
                 Además, recibirás noticias de nuestros cursos.
               </p>
 

@@ -19,7 +19,7 @@ const Courses = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
+              className="text-xl sm:text-2xl lg:text-3xl font-medium text-black-600 leading-relaxed"
             >
               <span className="text-teal-500">Cursos</span>
             </motion.h3>
@@ -27,11 +27,13 @@ const Courses = () => {
               variants={scrollAnimation}
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
             >
-              <span className="text-teal-500">
-                Elige el plan que sea mejor para ti y explora sus
-                oportunidades.
-              </span>
-              <p>
+              <p className="text-sm sm:text-lg">
+                <span className="text-teal-500">
+                  Elige el plan que sea mejor para ti y explora sus
+                  oportunidades.
+                </span>
+              </p>
+              <p className="text-sm sm:text-lg">
                 En este espacio encontrarás cursos online, packs de sesiones individuales y workshops.
               </p>
             </motion.p>

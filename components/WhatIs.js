@@ -32,10 +32,10 @@ const WhatIs = () => {
             </div>
 
             <div className="flex flex-col justify-center items-start row-start-1 sm:row-start-1">
-              <h1 className="text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
+              <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
                 ¿Qué es Make Change Happen?
               </h1>
-              <p className="text-justify text-black-500 mt-6 mb-2">
+              <p className="text-justify text-sm sm:text-lg text-black-500 mt-6 mb-2">
                 Es un{" "}
                 <span className="text-teal-500">
                   framework de autodescubrimiento
@@ -44,7 +44,7 @@ const WhatIs = () => {
                 mindset.
               </p>
 
-              <p className="text-justify text-black-500 mt-2 mb-6">
+              <p className="text-justify text-sm sm:text-lg text-black-500 mt-2 mb-6">
                 Creemos que a través de pequeños ajustes en la rutina del día
                 con día, las personas pueden encontrar la motivación para{" "}
                 <span className="text-teal-500">
