@@ -21,11 +21,11 @@ const Welcome = () => {
           variants={scrollAnimation}
         >
           <div className="flex flex-col justify-center items-start row-start-1">
-            <h1 className="text-3xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
+            <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
               Bienvenid@
             </h1>
 
-            <p className="text-justify text-black-500 mt-4 mb-4">
+            <p className="text-justify text-sm sm:text-lg text-black-500 mt-4 mb-4">
               Si aterrizaste en mi sitio web, es porque probablemente seas un{" "}
               <span className="text-teal-500">GAME CHANGER</span>, en busca de
               herramientas prácticas, ágiles y útiles para hacer del{" "}
@@ -34,7 +34,7 @@ const Welcome = () => {
               tu estilo de vida y fortalezca tu Liderazgo.
             </p>
 
-            <p className="text-justify mb-4">
+            <p className="text-justify text-sm sm:text-lg mb-4 sm:mb-8">
               En este espacio encontrarás{" "}
               <span className="text-teal-500">
                 podcast, cursos online gratuitos, sesiones individuales y
@@ -42,16 +42,7 @@ const Welcome = () => {
               </span>
               <br />
             </p>
-            {/* 
-            <p className="text-justify mb-4">
-              <i>
-                Toma una taza de café o té…{" "}
-                <span className="text-teal-500">
-                  ¡Comencemos juntos este Journey del Cambio!
-                </span>
-              </i>
-            </p>
- */}
+
             <LinkScroll
               activeClass="active"
               to="howto"

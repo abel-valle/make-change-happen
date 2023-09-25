@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
-const Contact = () => {
+const Enroll = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   const { register, handleSubmit, errors, formState } = useForm();
-    const [isEnrollSuccess, setIsEnrollSuccess] = useState(false);
+  const [isEnrollSuccess, setIsEnrollSuccess] = useState(false);
 
   const [nameEnroll, setNameEnroll] = useState("");
   const [emailEnroll, setEmailEnroll] = useState("");
@@ -40,47 +40,45 @@ const Contact = () => {
         <center>
           <ScrollAnimationWrapper>
             <motion.div variants={scrollAnimation}>
-              <h1 className="text-2xl lg:text-2xl xl:text-3xl font-medium text-teal-500 mb-2">
+              <h1 className="text-xl sm:text-2xl lg:text-2xl xl:text-3xl font-medium text-teal-500 mb-2">
                 Regístrate
               </h1>
-              <p className="text-black-100 mb-6">
+              <p className="text-sm sm:text-lg text-black-100 mb-6">
                 Además, recibirás noticias de nuestros cursos.
               </p>
 
               <form onSubmit={submitEnrollData}>
-                <div className="grid gap-6 mb-6 md:grid-cols-3 bg-yellow-100 rounded-lg mb-8 px-8">
-                  <div className="mt-8 mb-8">
+                <div className="grid bg-yellow-100 gap-4 px-8 mb-2 sm:gap-6 sm:mb-6 sm:grid-cols-4 rounded-lg">
+
+                  <div className="mt-2 sm:mt-8 sm:mb-8 sm:col-start-2 sm:col-span-2">
                     <input
                       type="text"
-                      className="peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.30rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                      className="mt-8 mb-3 text-sm sm:text-md peer block h-8 min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                       placeholder="Nombre (cómo te gusta que te digan)"
                       value={nameEnroll}
                       onChange={(e) => setNameEnroll(e.target.value)}
                       required
                     />
-                  </div>
-                  <div className="mt-8 mb-8">
+      
                     <input
                       type="email"
-                      className="peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.30rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                      className="mt-3 mb-3 text-sm sm:text-md peer block h-8 min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                       placeholder="Correo electrónico"
                       value={emailEnroll}
                       onChange={(e) => setEmailEnroll(e.target.value)}
                       required
                     />
-                  </div>
-                  <div className="mt-8 mb-8">
+      
                     <input
                       type="submit"
                       value="¡Registrarme!"
                       disabled={
                         !nameEnroll || !emailEnroll || formState.isSubmitting
                       }
-                      className="py-3 lg:py-2 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-yellow-500 hover:shadow-teal-md transition-all outline-none undefined"
-                      data-te-ripple-init
-                      data-te-ripple-color="light"
+                      className="mt-3 mb-6 py-3 px-8 sm:px-16 text-white-500 font-semibold rounded-lg bg-yellow-500 hover:shadow-teal-md transition-all outline-none undefined"
                     />
                   </div>
+
                 </div>
               </form>
 
@@ -95,4 +93,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Enroll;

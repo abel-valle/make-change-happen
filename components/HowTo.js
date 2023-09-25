@@ -19,11 +19,11 @@ const HowTo = () => {
             variants={scrollAnimation}
           >
             <div className=" flex flex-col justify-center items-start row-start-1 sm:row-start-1">
-              <h1 className="text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
+              <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
                 ¿Cómo logramos desarrollar un mindset de Game Changer?
               </h1>
 
-              <p className="text-justify text-black-500 mt-6 mb-2">
+              <p className="text-justify text-sm sm:text-lg text-black-500 mt-6 mb-2">
                 Un{" "}
                 <span className="text-teal-500">Mindset de Game Changer</span>,
                 se basa en el pensamiento de que cada persona es responsable de
@@ -36,8 +36,8 @@ const HowTo = () => {
                 para obtener los cambios, avances y resultados de una forma más
                 divertida y ágil.
               </p>
-{/* 
-              <p className="text-justify mt-2 mb-2">
+
+              <p className="text-justify text-sm sm:text-lg mt-2 mb-2">
                 Queremos que cada herramienta que tomes en{" "}
                 <span className="text-teal-500">
                   Make Change Happen, impacte de manera positiva en ti
@@ -46,7 +46,7 @@ const HowTo = () => {
                 conecta con tu <span className="text-teal-500">SUPERPODER</span>
                 .
               </p>
- */}              
+             
             </div>
 
             <div className="flex w-full">
