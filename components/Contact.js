@@ -50,12 +50,12 @@ const Contact = () => {
               <p className="text-sm sm:text-lg text-black-100 mb-6">Nos encanta saber sobre ti.</p>
 
               <form onSubmit={submitContactData}>
-                <div className="grid bg-teal-100 gap-4 mb-2 sm:gap-6 sm:mb-6 sm:grid-cols-4 rounded-lg mb-8 px-8">
+                <div className="grid bg-teal-100 gap-4 px-8 mb-2 sm:gap-6 sm:mb-6 sm:grid-cols-4 rounded-lg">
 
                   <div className="sm:col-start-2 sm:col-span-2 sm:px-8">
                     <input
                       type="text"
-                      className="mt-8 mb-2 text-sm sm:text-md peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.30rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
+                      className="mt-8 mb-2 text-sm sm:text-md peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                       placeholder="Nombre (cómo te gusta que te digan)"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
