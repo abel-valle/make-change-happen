@@ -34,7 +34,7 @@ const Welcome = () => {
               tu estilo de vida y fortalezca tu Liderazgo.
             </p>
 
-            <p className="text-justify text-sm sm:text-lg mb-4">
+            <p className="text-justify text-sm sm:text-lg mb-4 sm:mb-8">
               En este espacio encontrarás{" "}
               <span className="text-teal-500">
                 podcast, cursos online gratuitos, sesiones individuales y

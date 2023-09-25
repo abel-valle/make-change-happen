@@ -26,7 +26,7 @@ const AboutMe = () => {
                 <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500">
                   Mi nombre es Roxana Serrato
                 </h1>
-                <p className="text-black-500 text-sm sm:text-lg mt-6 mb-2">
+                <p className="text-justify text-black-500 text-sm sm:text-lg mt-6 mb-2">
                   Cuento con más de 14 años de experiencia, diseñando e
                   implementando estrategias en Desarrollo Organizacional y
                   Gestión del Cambio, dirigidas para diversos sectores como son:
@@ -34,14 +34,16 @@ const AboutMe = () => {
                   Resguardo de Información, Desarrollo de Software, Aseguradoras
                   y Retail.
                 </p>
-                {/*                 <p className="text-justify mt-2 mb-2">  
-                  En la actualidad soy Emprendedora Digital, Speaker,
-                  Consultor en Gestión del Cambio y <span className="text-teal-500">creadora del framework de
-                  autodescubrimiento Make Change Happen</span>, que tiene por misión
-                  ayudar y acompañar a las personas en la evolución de un
-                  mindset a través de <span className="text-teal-500">sesiones individuales, cursos online y
-                  workshops para equipos de trabajo y empresas.</span>
-                </p> */}
+
+                <p className="text-justify text-sm sm:text-lg mt-2 mb-2">
+                  En la actualidad soy Emprendedora Digital y{" "}
+                  <span className="text-teal-500">
+                    creadora del framework de autodescubrimiento Make Change
+                    Happen
+                  </span>
+                  , que tiene por misión ayudar y acompañar a las personas en la
+                  evolución de un nuevo mindset.
+                </p>
               </div>
               <div className="flex w-full">
                 <motion.div
@@ -83,14 +85,6 @@ const AboutMe = () => {
                     height={600}
                     layout="responsive"
                   />
-                  {/*                   <p className="text-center mt-4">
-                    ¡Me encanta ayudar y acompañar a las personas que toman la
-                    decisión y acción de transformar su mindset para{" "}
-                    <span className="text-teal-500">RE-INVENTARSE</span> y{" "}
-                    <span className="text-teal-500">RE-DISEÑAR</span> la
-                    trayectoria de su vida personal y profesional!
-                  </p>
-*/}
                 </motion.div>
               </div>
 
@@ -98,21 +92,27 @@ const AboutMe = () => {
                 <h1 className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-medium text-teal-500">
                   Formación y Estudios
                 </h1>
+
+                <p className="text-black-500 text-sm sm:text-lg mt-4 mb-2">
+                  Licenciatura en Psicología Organizacional – UAQ 2004 - 2008
+                </p>
+                {/* 
                 <p className="text-black-500 text-sm sm:text-lg mt-4 mb-2">
                   Licenciatura en Psicología Organizacional – UNIVERSIDAD
                   AUTÓNOMA DE QUERÉTARO 2004 - 2008, Titulada con mención
                   honorífica
                 </p>
-                {/* 
+ */}
+                {/*             
                 <p className="mb-2">
                   Diplomado en Habilidades Gerenciales – FINDES
                 </p>
- 
-                <p className="mb-2">
-                  Diplomado en Prevención de Conductas de Riesgo– Instituto
+*/}
+                <p className="text-sm sm:text-lg mb-2">
+                  Diplomado en Prevención de Conductas de Riesgo – Instituto
                   Humanista Gestalt
                 </p>
-*/}
+
                 <h1 className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-medium text-teal-500 mt-4">
                   Certificaciones
                 </h1>
@@ -129,18 +129,18 @@ const AboutMe = () => {
                 <p className="text-sm sm:text-lg mb-2">
                   2021 - PROSCI Certified Change Management Practitioner
                 </p>
-{/*
-                <p className="mb-2">
+
+                <p className="text-sm sm:text-lg mb-2">
                   2019 – SCRUM MÉXICO – Lean Change Management
                 </p>
-                
-                <p className="mb-2">
+                {/*                
+                <p className="text-lg sm:text-xl mb-2">
                   2018 - SCRUM MÉXICO & KLEE - FACILITACIÓN GRÁFICA
                 </p>
 
-                <p className="mb-2">2018 - SCRUM MÉXICO - MANAGEMENT 3.0</p>
+                <p className="text-lg sm:text-xl mb-2">2018 - SCRUM MÉXICO - MANAGEMENT 3.0</p>
              
-                <p className="mb-2">
+                <p className="text-lg sm:text-xl mb-2">
                   2018 - DIGITAL BUSINESS - MARKETING INBOUND
                 </p>
  */}

@@ -19,7 +19,7 @@ const Courses = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-xl sm:text-2xl lg:text-3xl font-medium text-black-600 leading-relaxed"
+              className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-medium text-black-600 leading-relaxed"
             >
               <span className="text-teal-500">Cursos</span>
             </motion.h3>
@@ -58,12 +58,12 @@ const Courses = () => {
                     alt="Plan Básico"
                   />
                 </div>
-                <p className="text-lg text-black-500 font-medium my-1 sm:my-7">
+                <p className="text-sm sm:text-lg text-black-500 font-medium my-1 sm:my-7">
                     The Journey of the Game Changer
                 </p>
 
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-2">
-                  <p className="text-2xl text-black-500 text-center mb-8">
+                  <p className="text-sm sm:text-xl text-black-500 text-center mb-8">
                     Test Gratuito
                   </p>
                   <LinkScroll
@@ -101,23 +101,23 @@ const Courses = () => {
                     alt="Plan Estándar"
                   />
                 </div>
-                <p className="text-lg text-black-500 font-medium my-2 sm:my-7">
+                <p className="text-sm sm:text-lg text-black-500 font-medium my-2 sm:my-7">
                   Packs de sesiones individuales{" "}
                 </p>
 
                 <div className="flex flex-col w-full justify-center flex-none mt-12 mb-8">
                   <LinkScroll
                     activeClass="active"
-                    to="contact"
+                    to="sessions"
                     spy={true}
                     smooth={true}
                     duration={1000}
                     onSetActive={() => {
-                      setActiveLink("contact");
+                      setActiveLink("sessions");
                     }}
                     className="font-medium tracking-wide py-2 px-5 sm:px-8 text-white-500 bg-teal-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-yellow-500 hover:text-white-500 transition-all hover:shadow-teal"
                   >
-                    Contáctanos
+                    Conoce más
                   </LinkScroll>
                 </div>
               </motion.div>
@@ -141,23 +141,23 @@ const Courses = () => {
                     alt="Plan Premium"
                   />
                 </div>
-                <p className="text-lg text-black-500 font-medium my-2 sm:my-7">
+                <p className="text-sm sm:text-lg text-black-500 font-medium my-2 sm:my-7">
                   Workshops para Equipos de Trabajos/Empresas{" "}
                 </p>
+
                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                  {/* <ButtonOutline>Conoce más</ButtonOutline> */}
                   <LinkScroll
                     activeClass="active"
-                    to="courses"
+                    to="contact"
                     spy={true}
                     smooth={true}
                     duration={1000}
                     onSetActive={() => {
-                      setActiveLink("courses");
+                      setActiveLink("contact");
                     }}
                     className="font-medium tracking-wide py-2 px-5 sm:px-8 text-white-500 bg-teal-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-yellow-500 hover:text-white-500 transition-all hover:shadow-teal"
                   >
-                    Conoce más
+                    Contáctanos
                   </LinkScroll>
                 </div>
               </motion.div>

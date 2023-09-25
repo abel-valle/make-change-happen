@@ -41,12 +41,10 @@ const Sessions = () => {
                 <span className="text-teal-500">acompañar tu proceso</span> a
                 través de preguntas que faciliten la clarificación de la visión
                 de cambio a lograr.
-              </p>
-
-              {/*                 Además de brindarte herramientas digitales
+                  Además de brindarte herramientas digitales
                 como: workbooks, journal de reflexión y tests que serán una guía
                 ágil y útil para apoyar tu autodescubrimiento.
-              </p> */}
+              </p> 
               <p className="text-justify text-sm sm:text-lg mt-2 mb-2">
                 Las{" "}
                 <span className="text-teal-500">

@@ -36,8 +36,8 @@ const HowTo = () => {
                 para obtener los cambios, avances y resultados de una forma más
                 divertida y ágil.
               </p>
-{/* 
-              <p className="text-justify mt-2 mb-2">
+
+              <p className="text-justify text-sm sm:text-lg mt-2 mb-2">
                 Queremos que cada herramienta que tomes en{" "}
                 <span className="text-teal-500">
                   Make Change Happen, impacte de manera positiva en ti
@@ -46,7 +46,7 @@ const HowTo = () => {
                 conecta con tu <span className="text-teal-500">SUPERPODER</span>
                 .
               </p>
- */}              
+             
             </div>
 
             <div className="flex w-full">
