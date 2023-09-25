@@ -39,10 +39,8 @@ const AboutMe = () => {
                   En la actualidad soy Emprendedora Digital y{" "}
                   <span className="text-teal-500">
                     creadora del framework de autodescubrimiento Make Change
-                    Happen
+                    Happen.
                   </span>
-                  , que tiene por misión ayudar y acompañar a las personas en la
-                  evolución de un nuevo mindset.
                 </p>
               </div>
               <div className="flex w-full">
