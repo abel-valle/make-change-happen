@@ -9,7 +9,7 @@ const WhatIs = () => {
 
   return (
     <div
-      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+      className="bg-gradient-to-b from-white-300 to-white-500 w-full"
       id="whatis"
     >
       <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
@@ -31,7 +31,7 @@ const WhatIs = () => {
               </motion.div>
             </div>
 
-            <div className="flex flex-col justify-center items-start row-start-2 sm:row-start-1">
+            <div className="flex flex-col justify-center items-start row-start-1 sm:row-start-1">
               <h1 className="text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
                 ¿Qué es Make Change Happen?
               </h1>

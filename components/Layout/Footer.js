@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
           </div>
           <p className="text-gray-400">
-            ©{new Date().getFullYear()} - Make Change Management
+            © {new Date().getFullYear()} - Make Change Management
           </p>
         </div>
 
