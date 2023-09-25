@@ -53,7 +53,7 @@ const Enroll = () => {
                   <div className="mt-6 sm:mt-8 sm:mb-8">
                     <input
                       type="text"
-                      className="peer block text-sm sm:text-md min-h-[auto] w-full rounded border-0 px-3 py-[0.30rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                      className="peer block text-sm sm:text-md min-h-[auto] w-full rounded border-0 px-3 py-[0.5rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                       placeholder="Nombre (cómo te gusta que te digan)"
                       value={nameEnroll}
                       onChange={(e) => setNameEnroll(e.target.value)}
@@ -63,14 +63,13 @@ const Enroll = () => {
                   <div className="sm:mt-8 sm:mb-8">
                     <input
                       type="email"
-                      className="peer block text-sm sm:text-md min-h-[auto] w-full rounded border-0 px-3 py-[0.30rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
+                      className="peer block text-sm sm:text-md min-h-[auto] w-full rounded border-0 px-3 leading-[2.5] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200"
                       placeholder="Correo electrónico"
                       value={emailEnroll}
                       onChange={(e) => setEmailEnroll(e.target.value)}
                       required
                     />
                   </div>
-                  <div className="text-teal-500">{formState.isSubmitting}</div>
                   <div className="mt-2 mb-6 sm:mt-8 sm:mb-8">
                     <input
                       type="submit"
