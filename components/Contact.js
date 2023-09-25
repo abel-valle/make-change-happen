@@ -55,7 +55,7 @@ const Contact = () => {
                   <div className="sm:col-start-2 sm:col-span-2 sm:px-8">
                     <input
                       type="text"
-                      className="mt-8 mb-2 text-sm sm:text-md peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
+                      className="mt-8 mb-3 text-sm sm:text-md peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                       placeholder="Nombre (cómo te gusta que te digan)"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
@@ -64,7 +64,7 @@ const Contact = () => {
 
                     <input
                       type="email"
-                      className="mt-2 mb-2 text-sm sm:text-md peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
+                      className="mt-3 mb-3 text-sm sm:text-md peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                       placeholder="Correo electrónico"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
@@ -73,7 +73,7 @@ const Contact = () => {
 
                     <input
                       type="tel"
-                      className="mt-2 mb-2 text-sm sm:text-md peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
+                      className="mt-3 mb-3 text-sm sm:text-md peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                       placeholder="Número de Whatsapp para contactarte"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
@@ -81,7 +81,7 @@ const Contact = () => {
                     />
 
                     <textarea
-                      className="mt-2 mb-2 text-sm sm:text-md peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
+                      className="mt-3 mb-3 text-sm sm:text-md peer block min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                       rows="3"
                       placeholder="¿En qué podemos ayudarte?"
                       value={subject}
@@ -99,7 +99,7 @@ const Contact = () => {
                         !phone ||
                         formState.isSubmitting
                       }
-                      className="mt-2 mb-6 py-3 px-8 sm:px-16 text-white-500 font-semibold rounded-lg bg-yellow-500 hover:shadow-teal-md transition-all outline-none undefined"
+                      className="mt-3 mb-6 py-3 px-8 sm:px-16 text-white-500 font-semibold rounded-lg bg-yellow-500 hover:shadow-teal-md transition-all outline-none undefined"
                     />
                   </div>
 
