@@ -53,7 +53,7 @@ const Enroll = () => {
                   <div className="mt-2 sm:mt-8 sm:mb-8 sm:col-start-2 sm:col-span-2">
                     <input
                       type="text"
-                      className="mt-8 mb-3 text-sm sm:text-md peer block h-10 min-h-fit w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
+                      className="mt-8 mb-3 text-sm sm:text-md peer block h-8 min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                       placeholder="Nombre (cómo te gusta que te digan)"
                       value={nameEnroll}
                       onChange={(e) => setNameEnroll(e.target.value)}
@@ -62,7 +62,7 @@ const Enroll = () => {
       
                     <input
                       type="email"
-                      className="mt-3 mb-3 text-sm sm:text-md peer block h-10 min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
+                      className="mt-3 mb-3 text-sm sm:text-md peer block h-8 min-h-[auto] w-full rounded border-0 px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-100"
                       placeholder="Correo electrónico"
                       value={emailEnroll}
                       onChange={(e) => setEmailEnroll(e.target.value)}
