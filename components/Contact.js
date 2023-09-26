@@ -50,7 +50,7 @@ const Contact = () => {
               <p className="text-sm sm:text-lg text-black-100 mb-6">Nos encanta saber sobre ti.</p>
 
               <form onSubmit={submitContactData}>
-                <div className="grid bg-teal-100 gap-4 px-8 mb-2 sm:gap-6 sm:mb-6 sm:grid-cols-4 rounded-lg">
+                <div className="grid bg-teal-100 gap-4 px-8 mb-2 sm:gap-6 sm:mb-6 sm:grid-cols-4 rounded-xl">
 
                   <div className="sm:col-start-2 sm:col-span-2 sm:px-8">
                     <input

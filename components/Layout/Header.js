@@ -23,7 +23,7 @@ const Header = () => {
       >
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <LogoMCH className="h-12 w-auto" />
+            <LogoMCH className="h-8 sm:h-10 w-auto" />
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500 items-center">
             <LinkScroll
@@ -114,7 +114,7 @@ const Header = () => {
               onSetActive={() => {
                 setActiveLink("enroll");
               }}
-              className="font-medium tracking-wide py-2 px-5 sm:px-8 border border-teal-500 text-teal-500 bg-white-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-teal-500 hover:text-white-500 transition-all hover:shadow-teal"
+              className="font-medium tracking-wide py-1 px-4 sm:px-8 border border-teal-500 text-teal-500 bg-white-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-teal-500 hover:text-white-500 transition-all hover:shadow-teal"
             >
               Registrarse
             </LinkScroll>
@@ -167,7 +167,7 @@ const Header = () => {
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "feature"
+                (activeLink === "courses"
                   ? " border-teal-500 text-teal-500"
                   : " border-transparent ")
               }
@@ -176,7 +176,7 @@ const Header = () => {
                 className="w-6 h-6"
                 fill="none"
                 stroke="currentColor"
-                viewBox="0 0 18 18"
+                viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5ZM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
@@ -194,7 +194,7 @@ const Header = () => {
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "pricing"
+                (activeLink === "aboutme"
                   ? " border-teal-500 text-teal-500"
                   : " border-transparent ")
               }
@@ -205,7 +205,7 @@ const Header = () => {
                 height="24"
                 fill="currentColor"
                 className="bi bi-cup-hot"
-                viewBox="0 0 16 16"
+                viewBox="0 0 18 18"
               >
                 <path
                   d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6H.5ZM13 12.5a2.01 2.01 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5ZM2.64 13.825 1.123 7h11.754l-1.517 6.825A1.5 1.5 0 0 1 9.896 15H4.104a1.5 1.5 0 0 1-1.464-1.175Z"
@@ -225,7 +225,7 @@ const Header = () => {
               }}
               className={
                 "mx-1 sm:mx-2 px-3 sm:px-4 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "testimoni"
+                (activeLink === "contact"
                   ? " border-teal-500 text-teal-500"
                   : " border-transparent ")
               }
