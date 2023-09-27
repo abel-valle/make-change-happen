@@ -63,18 +63,18 @@ const Courses = () => {
                   The Journey of the Game Changer
                 </p>
 
-                <div className="flex flex-col w-full justify-center mb-8 flex-none mt-2">
-                  <p className="text-sm sm:text-xl text-black-500 text-center mb-8">
+                <div className="flex flex-col w-full justify-center flex-none mt-2 mb-8">
+                  <p className="text-sm sm:text-xl text-black-500 text-center mt-4 mb-4">
                     Test Gratuito
                   </p>
 
                   <a
-                    href="https://www.youtube.com/watch?v=MiK1_JeKR30"
+                    href="https://forms.gle/9x5VJ4fVAFDTkbGd8"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-medium tracking-wide py-2 px-5 sm:px-8 text-white-500 bg-teal-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-yellow-500 hover:text-white-500 transition-all hover:shadow-teal"
                   >
-                    Conoce más
+                     Prueba Aquí
                   </a>
 
                 </div>
