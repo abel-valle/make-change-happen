@@ -3,7 +3,6 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import { Link as LinkScroll } from "react-scroll";
 
 const Welcome = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -49,24 +48,8 @@ const Welcome = () => {
               rel="noopener noreferrer"
               className="py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-yellow-500 hover:shadow-teal-md transition-all outline-none undefined"
             >
-              Ver Vídeo
+              Ver Video
             </a>
-
-            {/* 
-            <LinkScroll
-              activeClass="active"
-              to="howto"
-              spy={true}
-              smooth={true}
-              duration={200}
-              onSetActive={() => {
-                setActiveLink("howto");
-              }}
-              className="py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-yellow-500 hover:shadow-teal-md transition-all outline-none undefined"
-            >
-              Comienza Ahora
-            </LinkScroll>
-             */}
           </div>
 
           <div className="flex w-full">
