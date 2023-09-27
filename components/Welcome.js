@@ -43,6 +43,16 @@ const Welcome = () => {
               <br />
             </p>
 
+            <a
+              href="https://www.youtube.com/watch?v=MiK1_JeKR30"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="py-3 lg:py-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-yellow-500 hover:shadow-teal-md transition-all outline-none undefined"
+            >
+              Ver Vídeo
+            </a>
+
+            {/* 
             <LinkScroll
               activeClass="active"
               to="howto"
@@ -56,6 +66,7 @@ const Welcome = () => {
             >
               Comienza Ahora
             </LinkScroll>
+             */}
           </div>
 
           <div className="flex w-full">
