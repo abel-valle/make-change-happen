@@ -40,11 +40,10 @@ const Sessions = () => {
                 Mi compromiso contigo es{" "}
                 <span className="text-teal-500">acompañar tu proceso</span> a
                 través de preguntas que faciliten la clarificación de la visión
-                de cambio a lograr.
-                  Además de brindarte herramientas digitales
+                de cambio a lograr. Además de brindarte herramientas digitales
                 como: workbooks, journal de reflexión y tests que serán una guía
                 ágil y útil para apoyar tu autodescubrimiento.
-              </p> 
+              </p>
               <p className="text-justify text-sm sm:text-lg mt-2 mb-2">
                 Las{" "}
                 <span className="text-teal-500">
@@ -64,10 +63,11 @@ const Sessions = () => {
       </div>
 
       <div className="max-w-screen-xl px-6 sm:px-2 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
-        <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
-          Packs de Sesiones
-        </h1>
         <ScrollAnimationWrapper>
+          <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
+            Packs de Sesiones
+          </h1>
+
           <motion.div
             className="py-0 w-full px-0 mb-14"
             variants={scrollAnimation}
