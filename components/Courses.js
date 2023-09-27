@@ -65,7 +65,7 @@ const Courses = () => {
 
                 <div className="flex flex-col w-full justify-center flex-none mt-2 mb-8">
                   <p className="text-sm sm:text-xl text-black-500 text-center mt-4 mb-4">
-                    Test Gratuito
+                    Prueba Gratuita
                   </p>
 
                   <a
@@ -74,7 +74,7 @@ const Courses = () => {
                     rel="noopener noreferrer"
                     className="font-medium tracking-wide py-2 px-5 sm:px-8 text-white-500 bg-teal-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-yellow-500 hover:text-white-500 transition-all hover:shadow-teal"
                   >
-                    Prueba Aquí
+                    Test Aquí
                   </a>
                 </div>
               </motion.div>
