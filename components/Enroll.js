@@ -75,7 +75,7 @@ const Enroll = () => {
                       disabled={
                         !nameEnroll || !emailEnroll || formState.isSubmitting
                       }
-                      className="mb-20 py-3 px-8 sm:mb-6 sm:px-16 text-white-500 font-semibold rounded-lg bg-yellow-500 hover:shadow-teal-md transition-all outline-none undefined"
+                      className="mt-3 mb-20 py-3 px-8 sm:mb-6 sm:px-16 text-white-500 font-semibold rounded-lg bg-yellow-500 hover:shadow-teal-md transition-all outline-none undefined"
                     />
                   </div>
                 </div>

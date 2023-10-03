@@ -31,7 +31,7 @@ const Sessions = () => {
               </motion.div>
             </div>
 
-            <div className="flex flex-col justify-center items-start row-start-2 sm:row-start-1">
+            <div className="flex flex-col justify-center items-center row-start-2 sm:row-start-1">
               <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
                 Sesiones Individuales
               </h1>
@@ -57,6 +57,14 @@ const Sessions = () => {
                   ¡Cuando estés listo, estoy aquí para acompañarte en tu viaje!
                 </b>
               </p>
+              <a
+                href="https://www.psychologytoday.com/mx/psicologos/sandra-roxana-serrato-solis-guadalajara-ja/1165446?utm_campaign=TD_SHS_9_1&utm_medium=Email&utm_source=TDE"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium tracking-wide py-2 px-5 sm:px-8 text-white-500 bg-yellow-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-teal-500 hover:text-white-500 transition-all hover:shadow-teal"
+              >
+                Agendar Sesión
+              </a>
             </div>
           </motion.div>
         </ScrollAnimationWrapper>
