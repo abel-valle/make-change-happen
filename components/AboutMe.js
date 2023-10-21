@@ -103,7 +103,7 @@ const AboutMe = () => {
                   honorífica
                 </p>
 */}
-                <p className="mb-2">
+                <p className="text-sm sm:text-lg mb-2">
                   Diplomado en Habilidades Gerenciales – FINDES
                 </p>
 
