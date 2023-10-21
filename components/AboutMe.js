@@ -137,7 +137,7 @@ const AboutMe = () => {
                   2018 - SCRUM MÉXICO & KLEE - FACILITACIÓN GRÁFICA
                 </p>
 */}
-                <p className="text-sm sm:text-xl mb-2">2018 - SCRUM MÉXICO - MANAGEMENT 3.0</p>
+                <p className="text-sm sm:text-lg mb-2">2018 - SCRUM MÉXICO - MANAGEMENT 3.0</p>
 {/*             
                 <p className="text-sm sm:text-lg mb-2">
                   2018 - DIGITAL BUSINESS - MARKETING INBOUND
