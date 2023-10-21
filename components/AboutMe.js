@@ -133,13 +133,13 @@ const AboutMe = () => {
                   2019 – SCRUM MÉXICO – Lean Change Management
                 </p>
 {/*                                
-                <p className="text-lg sm:text-xl mb-2">
+                <p className="text-sm sm:text-lg mb-2">
                   2018 - SCRUM MÉXICO & KLEE - FACILITACIÓN GRÁFICA
                 </p>
 */}
-                <p className="text-lg sm:text-xl mb-2">2018 - SCRUM MÉXICO - MANAGEMENT 3.0</p>
+                <p className="text-sm sm:text-xl mb-2">2018 - SCRUM MÉXICO - MANAGEMENT 3.0</p>
 {/*             
-                <p className="text-lg sm:text-xl mb-2">
+                <p className="text-sm sm:text-lg mb-2">
                   2018 - DIGITAL BUSINESS - MARKETING INBOUND
                 </p>
 */}
