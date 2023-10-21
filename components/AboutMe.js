@@ -92,20 +92,21 @@ const AboutMe = () => {
                 </h1>
 
                 <p className="text-black-500 text-sm sm:text-lg mt-4 mb-2">
-                  Licenciatura en Psicología Organizacional – UAQ 2004 - 2008
+                  Licenciatura en Psicología Organizacional – UAQ 2004 - 2008,
+                  Titulada con mención honorífica
                 </p>
-                {/* 
+
+{/* 
                 <p className="text-black-500 text-sm sm:text-lg mt-4 mb-2">
                   Licenciatura en Psicología Organizacional – UNIVERSIDAD
                   AUTÓNOMA DE QUERÉTARO 2004 - 2008, Titulada con mención
                   honorífica
                 </p>
- */}
-                {/*             
-                <p className="mb-2">
+*/}
+                <p className="text-sm sm:text-lg mb-2">
                   Diplomado en Habilidades Gerenciales – FINDES
                 </p>
-*/}
+
                 <p className="text-sm sm:text-lg mb-2">
                   Diplomado en Prevención de Conductas de Riesgo – Instituto
                   Humanista Gestalt
@@ -131,17 +132,17 @@ const AboutMe = () => {
                 <p className="text-sm sm:text-lg mb-2">
                   2019 – SCRUM MÉXICO – Lean Change Management
                 </p>
-                {/*                
-                <p className="text-lg sm:text-xl mb-2">
+{/*                                
+                <p className="text-sm sm:text-lg mb-2">
                   2018 - SCRUM MÉXICO & KLEE - FACILITACIÓN GRÁFICA
                 </p>
-
-                <p className="text-lg sm:text-xl mb-2">2018 - SCRUM MÉXICO - MANAGEMENT 3.0</p>
-             
-                <p className="text-lg sm:text-xl mb-2">
+*/}
+                <p className="text-sm sm:text-lg mb-2">2018 - SCRUM MÉXICO - MANAGEMENT 3.0</p>
+{/*             
+                <p className="text-sm sm:text-lg mb-2">
                   2018 - DIGITAL BUSINESS - MARKETING INBOUND
                 </p>
- */}
+*/}
               </div>
             </motion.div>
           </ScrollAnimationWrapper>
