@@ -3,6 +3,7 @@ import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import { Helmet } from "react-helmet";
 
 const Sessions = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -31,7 +32,7 @@ const Sessions = () => {
               </motion.div>
             </div>
 
-            <div className="flex flex-col justify-center items-center row-start-2 sm:row-start-1">
+            <div className="flex flex-col justify-center items-center row-start-1 sm:row-start-1">
               <h1 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
                 Sesiones Individuales
               </h1>
@@ -52,7 +53,7 @@ const Sessions = () => {
                 , tus logros serán el resultado del compromiso, disciplina,
                 frecuencia y acción para dar seguimiento a tu plan.
               </p>
-              <p className="text-justify text-sm sm:text-lg text-teal-500 mt-2 mb-8">
+              <p className="text-justify text-sm sm:text-lg text-teal-500 mt-2 mb-6">
                 <b>
                   ¡Cuando estés listo, estoy aquí para acompañarte en tu viaje!
                 </b>
@@ -61,10 +62,38 @@ const Sessions = () => {
                 href="https://www.psychologytoday.com/mx/psicologos/sandra-roxana-serrato-solis-guadalajara-ja/1165446?utm_campaign=TD_SHS_9_1&utm_medium=Email&utm_source=TDE"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium tracking-wide py-2 px-5 sm:px-8 text-white-500 bg-yellow-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-teal-500 hover:text-white-500 transition-all hover:shadow-teal"
+                className="font-medium tracking-wide py-2 px-5 sm:px-8 mb-4 text-white-500 bg-yellow-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-teal-500 hover:text-white-500 transition-all hover:shadow-teal"
               >
                 Agendar Sesión
               </a>
+
+              {/* Professional verification provided by Psychology Today */}
+              <a
+                href="https://www.psychologytoday.com/profile/1165446"
+                className="sx-verified-seal mb-4"
+              ></a>
+              <script
+                type="text/javascript"
+                src="https://member.psychologytoday.com/verified-seal.js"
+                data-badge="13"
+                data-id="1165446"
+                data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="
+              ></script>
+
+              {/* Professional verification provided by Psicology and Mind */}
+              <a
+                href="https://psicologiaymente.com/psicologos/2075591/sandra-roxana-serrato-solis"
+                id="pym-pro-url"
+                data-professional-id="2075591"
+                rel="nofollow"
+                data-pym-widget-version="1"
+              >
+                Sandra Roxana Serrato Solis - psicologiaymente.com
+              </a>
+              <Helmet>
+                <script src="/assets/psicoymente.js" type="text/javascript" />
+              </Helmet>
+
             </div>
           </motion.div>
         </ScrollAnimationWrapper>
