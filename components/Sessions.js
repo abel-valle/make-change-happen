@@ -70,7 +70,7 @@ const Sessions = () => {
               {/* Professional verification provided by Psychology Today */}
               <a
                 href="https://www.psychologytoday.com/profile/1165446"
-                className="sx-verified-seal mb-4"
+                className="sx-verified-seal"
               ></a>
               <script
                 type="text/javascript"
@@ -79,20 +79,6 @@ const Sessions = () => {
                 data-id="1165446"
                 data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="
               ></script>
-
-              {/* Professional verification provided by Psicology and Mind */}
-              <a
-                href="https://psicologiaymente.com/psicologos/2075591/sandra-roxana-serrato-solis"
-                id="pym-pro-url"
-                data-professional-id="2075591"
-                rel="nofollow"
-                data-pym-widget-version="1"
-              >
-                Sandra Roxana Serrato Solis - psicologiaymente.com
-              </a>
-              <Helmet>
-                <script src="/assets/psicoymente.js" type="text/javascript" />
-              </Helmet>
 
             </div>
           </motion.div>
