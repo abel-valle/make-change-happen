@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import LogoMCH from "../../public/assets/logo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
@@ -34,7 +35,11 @@ const Footer = () => {
             <script src="/assets/psicoymente.js" type="text/javascript" />
           </Helmet>
 
-          <div className="flex w-full mt-2 mb-8 -mx-2">
+          <div>
+            <img src="/assets/tecmty-cert.png" alt="logo" width="250px"/>
+          </div>
+
+          <div className="flex w-full mt-8 mb-2 -mx-2">
             <a
               href="https://www.facebook.com/profile.php?id=61552264250420&locale=es_LA"
               target="_blank"
