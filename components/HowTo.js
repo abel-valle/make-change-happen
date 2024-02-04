@@ -18,7 +18,7 @@ const HowTo = () => {
             className="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16"
             variants={scrollAnimation}
           >
-            <div className=" flex flex-col justify-center items-start row-start-1 sm:row-start-1">
+            <div className="flex flex-col justify-center items-start row-start-1 sm:row-start-1">
               <h1 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-medium text-teal-500 leading-normal">
                 ¿Cómo logramos desarrollar un mindset de Game Changer?
               </h1>
