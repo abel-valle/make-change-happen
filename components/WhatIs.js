@@ -2,7 +2,6 @@ import React, { useMemo } from "react";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import YouTubePlayer from "./YouTubePlayer"
 
 const WhatIs = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
