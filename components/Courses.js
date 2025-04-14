@@ -64,11 +64,6 @@ const Courses = () => {
                 </p>
 
                 <div className="flex flex-col w-full justify-center flex-none mt-2 mb-8">
-                  <!-- p className="text-sm sm:text-xl text-black-500 text-center mt-4 mb-4">
-                    Prueba Gratuita
-                    https://forms.gle/9x5VJ4fVAFDTkbGd8
-                  </p -->
-
                   <a
                     href="https://making-change-management.hotmart.host/10-dias-para-despertar-tu-game-changer-5fea7f62-71f6-4fe4-b33a-619e287cdd6d"
                     target="_blank"
