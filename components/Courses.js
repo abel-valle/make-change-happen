@@ -60,21 +60,22 @@ const Courses = () => {
                   />
                 </div>
                 <p className="text-sm sm:text-lg text-black-500 font-medium my-1 sm:my-7">
-                  The Journey of the Game Changer
+                  Curso: 10 días para despertar tu Game Changer
                 </p>
 
                 <div className="flex flex-col w-full justify-center flex-none mt-2 mb-8">
-                  <p className="text-sm sm:text-xl text-black-500 text-center mt-4 mb-4">
+                  <!-- p className="text-sm sm:text-xl text-black-500 text-center mt-4 mb-4">
                     Prueba Gratuita
-                  </p>
+                    https://forms.gle/9x5VJ4fVAFDTkbGd8
+                  </p -->
 
                   <a
-                    href="https://forms.gle/9x5VJ4fVAFDTkbGd8"
+                    href="https://making-change-management.hotmart.host/10-dias-para-despertar-tu-game-changer-5fea7f62-71f6-4fe4-b33a-619e287cdd6d"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-medium tracking-wide py-2 px-5 sm:px-8 text-white-500 bg-teal-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-yellow-500 hover:text-white-500 transition-all hover:shadow-teal"
                   >
-                    Test Aquí
+                    Curso Aquí
                   </a>
                 </div>
               </motion.div>
