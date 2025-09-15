@@ -22,6 +22,7 @@ const Footer = () => {
           <LogoMCH className="h-10 w-auto mb-6" />
 
           {/* Professional verification provided by Psicology and Mind */}
+          {/*
           <a
             href="https://psicologiaymente.com/psicologos/2075591/sandra-roxana-serrato-solis"
             id="pym-pro-url"
@@ -34,7 +35,7 @@ const Footer = () => {
           <Helmet>
             <script src="/assets/psicoymente.js" type="text/javascript" />
           </Helmet>
-
+          */}
           <div>
             <img src="/assets/tecmty-cert.png" alt="logo" width="250px"/>
           </div>
@@ -135,3 +136,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
