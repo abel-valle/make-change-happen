@@ -21,7 +21,7 @@ const WhatIs = () => {
               <span className="text-teal-500">¿Qué es Make Change Happen?</span>
             </motion.h3>
             <div className="aspect-w-16 aspect-h-9">
-              <iframe src="https://www.youtube.com/embed/h1piCCocaOc" frameborder="0"
+              <iframe src="https://www.youtube.com/embed/O1N5Wzdy8NY" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </ScrollAnimationWrapper>
@@ -32,3 +32,4 @@ const WhatIs = () => {
 };
 
 export default WhatIs;
+
